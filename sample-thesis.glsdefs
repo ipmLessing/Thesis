@@ -1,0 +1,140 @@
+\glsdefs@newdocentry{PhD}%
+{%
+name={PhD},%
+sort={PhD},%
+type={main},%
+first={PhD},%
+firstplural={PhDs},%
+text={PhD},%
+plural={PhDs},%
+description={Doctor of Philosophy},%
+descriptionplural={Doctor of Philosophy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{R}%
+{%
+name={$\mathbb {R}$},%
+sort={$\mathbb {R}$},%
+type={main},%
+first={$\protect \mathbb  {R}$},%
+firstplural={$\protect \mathbb  {R}$s},%
+text={$\protect \mathbb  {R}$},%
+plural={$\protect \mathbb  {R}$s},%
+description={Real Number},%
+descriptionplural={Real Number},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FDCT}%
+{%
+name={FDCT},%
+sort={FDCT},%
+type={main},%
+first={FDCT},%
+firstplural={FDCTs},%
+text={FDCT},%
+plural={FDCTs},%
+description={Science and Technology Development Fund},%
+descriptionplural={Science and Technology Development Fund},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{GCD}%
+{%
+name={GCD},%
+sort={GCD},%
+type={main},%
+first={GCD},%
+firstplural={GCDs},%
+text={GCD},%
+plural={GCDs},%
+description={Greatest Common Divisor},%
+descriptionplural={Greatest Common Divisor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LCM}%
+{%
+name={LCM},%
+sort={LCM},%
+type={main},%
+first={LCM},%
+firstplural={LCMs},%
+text={LCM},%
+plural={LCMs},%
+description={Least Common Multiple},%
+descriptionplural={Least Common Multiple},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

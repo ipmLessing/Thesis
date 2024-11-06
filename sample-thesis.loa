@@ -1,0 +1,5 @@
+\contentsline {algorithm}{\numberline {4.1}{\ignorespaces Dot product of two vectors $\vec {v}=\left (x_1, y_1\right )$ and $\vec {u}=\left (x_2, y_2\right )$.}}{12}{algorithm.4.1}%
+\contentsline {algorithm}{\numberline {4.2}{\ignorespaces Finding the Greatest Common Divisor (\gls {GCD}) of two given integers $a$ and $b$.}}{12}{algorithm.4.2}%
+\contentsline {algorithm}{\numberline {4.3}{\ignorespaces Finding the Least Common Multiple (\gls {LCM}) of two given integers $a$ and $b$.}}{12}{algorithm.4.3}%
+\contentsline {algorithm}{\numberline {4.4}{\ignorespaces Split binary search tree $T$ by key $k$.}}{13}{algorithm.4.4}%
+\contentsline {algorithm}{\numberline {4.5}{\ignorespaces Insertion sort of array $A$.}}{13}{algorithm.4.5}%

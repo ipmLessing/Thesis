@@ -1,0 +1,120 @@
+%% (I)
+%% documentclass options.
+%%
+%% - font families: CM, Times, Utopia, Garamond, Palatino, Libertine (default)
+%% - thesis types: Proposal, Thesis (default)
+%% - produce modes: Review (default), Final
+%% - final hardback: Hardback, NoHardback (default)
+%% - spacing: OneHalfSpacing (default), DoubleSpacing
+%%
+%% a book class extension.
+\documentclass[Thesis,Review,Hardback]{mpThesis}
+
+%% (II)
+%% additional LaTeX packages included:
+%$ \usepackage{showframe}
+\usepackage{lipsum}
+\usepackage{longtable}
+\usepackage[chapter]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{bibentry}
+\nobibliography*
+
+%% (III)
+%% commands to define variables:
+%%
+\StudentName%
+[Ka Seng Chou
+]{Ka Seng Chou} % \StudentName[Lone Name\\with Line Breaks]{Given Family}
+\StudentNumber{P-12-0460-0} % \StudentNumber{<<Student Number>>} % P-XX-XXXX-X
+\AcademicUnit{Faculty of Applied Sciences}
+\Programme%
+[Doctor of Philosophy in\\Computer Applied Technology]%
+{Doctor of Philosophy in Computer Applied Technology}
+\Supervisor{Prof. Sio Kei Im and Prof. Giovanni Pau}
+\Cosupervisor{Dr. Su-Kit Tang}
+
+\Title%
+[Beyond Boundaries: AI-Driven Perception and Energy Management in Autonomy]%
+{Beyond Boundaries: AI-Driven Perception and Energy Management in Autonomy}
+\ThesisNumber%
+{0000}{PCOM}{FCA}{picasso}{sample}
+\ThesisKeywords%
+{Autonomous Vehicles, Robotics, Battery Health Monitoring, Few-Shot Learning, Mobility Forecasting}
+\Date{2025-01-30} %Submission Date (YYYY-MM-DD)
+
+%% \DefenceDateTime{9999-01-02}{23:59:00} % Defence Date (YYYY-MM-DD), and Time (hh:mm:ss)
+%% \PanelChair{<<Chair>>}
+%% \PanelExternal{<<External>>}
+%% \PanelExaminerA{<<Examiner A>>} % Thesis Defence only
+%% \PanelExaminerB{<<Examiner B>>} % Thesis Defence only
+%% \PanelExaminer{<<Examiner>>} % Candidature Confirmation only
+
+%% commands to insert variables:
+%%
+%% \InsertStudentName
+%% \InsertStudentNameBreak
+%% \InsertStudentNumber
+%% \InsertAcademicUnit
+%% \InsertProgramme
+%% \InsertProgrammeBreak
+%% \InsertCosupervisor
+%% \InsertSupervisor
+%% \InsertLongDate
+%% \InsertDate
+%% \InsertYear
+%% \InsertMonthYear
+%% \InsertTitle
+%% \InsertThesisNumber
+%% \InsertThesisUrl
+%% \InsertDefenceDate
+%% \InsertDefenceTime
+%% \InsertPanelChair
+%% \InsertPanelExternal
+%% \InsertPanelExaminerA
+%% \InsertPanelExaminerB
+%% \InsertPanelExaminer
+%%
+
+\begin{document}
+%%
+%%
+%% - List of Figures [FigLs]: true (default), false
+%% - List of Tables [TabLs]: true (default), false
+%% - List of Algorithms [AlgoLs]: true, false (default)
+%% - List of Abbreviations [AbbreLs]: true (default), false
+\begin{FrontMatter}[FigLs,TabLs,AlgoLs,AbbreLs]
+\EmphasizeAuthors{emphasized/author/list/1}
+\input{Declaration.tex}
+\input{Abstract.tex}
+\input{Acknowledgments.tex}
+\end{FrontMatter}
+%%
+%%
+\begin{MainMatter}
+\input{Chapter1/Chapter1.tex}
+\input{Chapter2/Chapter2.tex}
+\input{Chapter3/Chapter3.tex}
+\input{Chapter4/Chapter4.tex}
+\input{Chapter5/Chapter5.tex}
+\input{Chapter6/Chapter6.tex}
+\end{MainMatter}
+%%
+%%
+\begin{BackMatter}
+\bibliographystyle{mpUnsrt.bst} %unsrt, acm, ieeetr, apalike, mpUnsrt
+\bibliography{Emphasized.bib,Bibliography.bib} %list emphasized names and styles in a separate bib, include when needed.
+\end{BackMatter}
+%%
+%%
+\begin{Appendix}
+\input{AppendixA/AppendixA.tex}
+\input{AppendixB/AppendixB.tex}
+\input{AppendixC/AppendixC.tex}
+\input{AppendixD/AppendixD.tex}
+\end{Appendix}
+%%
+%%
+\end{document}
+
+\endinput

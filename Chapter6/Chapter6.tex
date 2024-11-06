@@ -1,0 +1,286 @@
+\chapter{Conclusions}\label{ch:6}
+\minitoc
+
+Conclusions. Sample of citation \cite{DBLP:journals/sigcas/X91} in ``mpUnsrt'' style, derived from the standard {Bib\TeX} ``unsrt'' style~\cite{Lamport1994-Latex}.
+
+\newpage
+
+\section{Future Work}
+
+Future Work.
+
+\section{Template Versioning}
+
+Template Versioning
+
+\singlespacing
+\begin{longtabu}{
+		>{\raggedleft\arraybackslash}p{0.1\linewidth}|
+		>{}p{0.9\linewidth}
+	}
+	\caption{Template Versioning}\\
+	
+	\toprule
+	
+	\textbf{Version} & \textbf{Detail}\\
+	
+	\midrule
+	
+	6.2 & \textbf{March 25, 2024}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item enable ``x11names'' from package ``xcolor'';
+		\item redraw MPU-FCA-logo.pdf;
+	\end{itemize}\\
+	
+	\midrule
+	
+	6.1 & \textbf{April 03, 2023}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item use CalliCover as the default ``Hardback'' paper;
+	\end{itemize}\\
+	
+	\midrule
+	
+	6.0 & \textbf{March 24, 2023}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item add ``Hardback'' option for final printing;
+		\item add ``copyright page'' in between ``cover page'' and ``title page'';
+		\item redesign ``cover page'', ``title page'', and ``declaration page'';
+		\item ``declaration page'' is created as a *.tex file and is allowed to be modified;
+		\item ``DefenceDate'', ``PanelChair'', ``PanelExternal'' and ``PanelExaminer'' information needs to be entered;
+		\item supports optional long title names (with line break) to be displayed on the copyright page only;
+		\item a template of ``Author Biography'' is provided in \autoref{App:Biography};
+		\item make font ``Libertine'' and cover ``CalliCover'' the default;
+		\item move ``Ethics Checklist'' to \autoref{App:TechnologyEthics};
+		\item latex (macros) code refinement;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.9 & \textbf{January 06, 2023}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item support ``subsubsection'' indexing;
+		\item ``notoccite'' package is enabled by default in ``mpThesis.cls'';
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.8 & \textbf{January 04, 2023}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item a blank page has been added at the end of thesis;
+		\item fixed issue from package ``glossaries'';
+		\item fixed template mark displaying in ``Final'' mode, now only on the back of the cover page;
+		\item added the ``DoubleSpacing'' option to enable double spacing when needed, the default is one-half spacing;
+		\item added the ``NoTocCite'' option to include the ``notoccite'' package to prevent the numbering of bibliography from being affected by the citations in TOC;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.7 & \textbf{October 27, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item restrict package ``glossaries'' using version 4.46;
+		\item define the (\gls{MPU} and \gls{MPI}) glossary by default to eliminate the quirk in the ``glossaries'' package;
+		\item determine double-spacing in mainMatter;
+		\item increase TOC depth level to 2;
+		\item show the ``url'' and ``doi'' items in the ``mpUnsrt'' style.
+		\item a sample of ``publication list'' is provided in \autoref{ch:1};
+		\item section refinement in \autoref{ch:1} to \ref{ch:3};
+		\item adjust ``citecolor'';
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.6 & \textbf{September 22, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item made ``List of Figures/Tables/Algorithms/Abbreviations'' optional;
+		\item adjusted the position of the example section;
+		\item provided more advanced examples;
+		\item reformatted section ``Template Versioning'';
+		\item release to canvas;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.5 & \textbf{September 20, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item added ``List of Algorithms'';
+		\item provided an example of algorithm in \autoref{ch:4};
+		\item added optional long name (with line breaks) support, including student names and programme names, shown only on the title page;
+		\item {\tt NoToC} option;
+		\item adjusted the vertical position of the Chinese calligraphic MPU logo in page headers;
+		\item adjusted vertical spacing of the table on the title page;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.4 & \textbf{September 15, 2022}
+	\begin{itemize}	[nosep, leftmargin=*]
+		\item refined title page;
+		\item adjusted spacing;
+		\item added Chinese MPU logo (in .pdf);
+		\item redesigned header format;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.3 & \textbf{September 13, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item refined format of ``mpUnsrt.bst'';
+		\item added emphasized authors support to ``mpUnsrt.bst'';
+		\item improved TOC macros;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.2 & \textbf{September 06, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item added reference style ``mpUnsrt.bst'';
+		\item added more font families;
+		\item disposed ``IndentFirst'';
+		\item improved template manuals;
+		\item make minitoc singlespacing;
+		\item provided two types of ``Thesis'' or ``Proposal'', ``Thesis'' is default;
+		\item provided two modes of ``Review'' or ``Final'', ``Review'' is default;
+		\item ``Review'' mode shows hyperlinks and line numbers;
+		\item ``Final'' mode removes line numbers, no color for hyperlinks;
+		\item minor font size adjustment;
+		\item added template version marks to even pages;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.1 & \textbf{September 02, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item Overleaf online tested;
+		\item online version refinement;
+		\item made ``IndentFirst'' optional;
+		\item redefined the cross-reference prefix;
+		\item aligned list of abbreviations;
+	\end{itemize}\\
+	
+	\midrule
+	
+	5.0 & \textbf{August 29, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item major revision;
+		\item item definition of template classes and refinement of \LaTeX{} code;
+		\item regeneration of MPU logo;
+		\item provide more font family;
+		\item an example about profile updating is provided;
+	\end{itemize}\\
+	
+	\midrule
+	
+	4.8 & \textbf{August 24, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item add mini-tables-of-contents in each chapter;
+		\item move ``Acknowledgments'' to frontmatter;
+		\item add ``List of Abbreviations'';
+		\item provide an example of adding glossary in \autoref{ch:3};
+		\item add the section of ``Template Versioning'' in \autoref{ch:6};
+		\item the first indent have been changed to default;
+		\item latex (macros) code refinement;
+	\end{itemize}\\
+	
+	\midrule
+	
+	4.2 & \textbf{March 09, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item add ``Universidade Polit\'{e}cnica de Macau'' on the Cover page;
+		\item cover page redesign;
+		\item regenerate the optimized MPU loge;
+		\item refine TOC format;
+	\end{itemize}\\
+	
+	\midrule
+	
+	4.1 & \textbf{March 04, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item appendix header correction;
+		\item section header alignment;
+	\end{itemize}\\
+	
+	\midrule
+	
+	4.0 &\textbf{ March 07, 2022}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item update ``MPI'' to ``MPU'';
+		\item update ``School'' to ``Faculty'';
+		\item adjust the size and position of the MPU logo.
+		\item formatting student ID: P-XX-XXXX-X;
+		\item change to use small cap format for the section header;
+		\item highlight fillable item;
+		\item few formatting adjustments;
+	\end{itemize}\\
+	
+	\midrule
+	
+	3.7 & \textbf{November 26, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item dispose the front of ``Times New Roman'';
+		\item update title page;
+		\item provide the logo in PDF format;
+		\item few formatting adjustments;
+	\end{itemize}\\
+	
+	\midrule
+	
+	3.5 & \textbf{April, 13, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item update TOC's chapter and title;
+		\item update the chapter of ``Acknowledgements'';
+		\item provide an example of using equation in \autoref{ch:1};
+		\item provide an example of using table in \autoref{ch:2};
+		\item provide an example of adding figure in \autoref{ch:3};
+		\item provide an example of using list in \autoref{ch:5};
+		\item provide an example of citing literature in \autoref{ch:5};
+		\item other minor adjust to format;
+	\end{itemize}\\
+	
+	\midrule
+	
+	3.1 & \textbf{January 27, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item update cover paper statement;
+		\item change citation style to ieeetr style;
+		\item remove chinese abstract;
+		\item few formatting adjustments;
+	\end{itemize}\\
+	
+	\midrule
+	
+	3.0 & \textbf{January 15, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item format TOC;
+		\item change first indent to 1.2cm;
+		\item change header/footer font size to 10;
+		\item other adjustments;
+	\end{itemize}\\
+	
+	\midrule
+	
+	2.3 & \textbf{January 07, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item supported chinese abstract;
+		\item adjust TOC;
+	\end{itemize}\\
+	
+	\midrule
+	
+	2.1 & \textbf{January 06, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item update cover pager;
+		\item design and formatting;
+	\end{itemize}\\
+	
+	\midrule
+	
+	1.0 & \textbf{January 04, 2021}
+	\begin{itemize} [nosep, leftmargin=*]
+		\item first release;
+	\end{itemize}\\
+	
+	\bottomrule
+\end{longtabu}
+
+\endinput
