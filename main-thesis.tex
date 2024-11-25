@@ -84,7 +84,7 @@
 %% - List of Algorithms [AlgoLs]: true, false (default)
 %% - List of Abbreviations [AbbreLs]: true (default), false
 \begin{FrontMatter}[FigLs,TabLs,AlgoLs,AbbreLs]
-\EmphasizeAuthors{emphasized/author/list/1}
+% \EmphasizeAuthors{emphasized/author/list/1}
 \input{Declaration.tex}
 \input{Abstract.tex}
 \input{Acknowledgments.tex}
@@ -103,8 +103,9 @@
 %%
 %%
 \begin{BackMatter}
-\bibliographystyle{mpUnsrt.bst} %unsrt, acm, ieeetr, apalike, mpUnsrt
-\bibliography{Emphasized.bib,Bibliography.bib} %list emphasized names and styles in a separate bib, include when needed.
+\bibliographystyle{mpUnsrt} %unsrt, acm, ieeetr, apalike, mpUnsrt
+%\bibliography{Emphasized.bib,Bibliography.bib} %list emphasized names and styles in a separate bib, include when needed.
+\bibliography{Bibliography.bib} 
 \end{BackMatter}
 %%
 %%
