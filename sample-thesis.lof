@@ -11,21 +11,13 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Literature Review}{5}{chapter.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Problem Formulation}{9}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \gls {MPU} Logo.}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \gls {MPU} Calligraphy.}}{10}{figure.caption.12}%
+\contentsline {xchapter}{Problem Formulation}{7}{chapter.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Methodology}{11}{chapter.4}%
+\contentsline {xchapter}{Conceptual Design of the RL Framework}{9}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Schedules and Milestones}{15}{chapter.5}%
+\contentsline {xchapter}{Case Studies}{11}{chapter.5}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusions}{17}{chapter.6}%
+\contentsline {xchapter}{Results and Discussion}{13}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Preliminary Data and Results}{25}{appendix.A}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Publications and Technical Report Produced}{27}{appendix.B}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Technology Details and Ethics Checklist}{29}{appendix.C}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Biography}{31}{appendix.D}%
+\contentsline {xchapter}{Conclusion and Future Directions}{15}{chapter.7}%
 \contentsfinish 

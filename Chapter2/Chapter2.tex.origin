@@ -1,0 +1,52 @@
+\chapter{Literature Review}\label{ch:2}
+\minitoc
+
+The literature review builds a knowledge base and a set of potential paths for the upcoming technical details to solve the problems.
+It usually serves as the illustration of foundation, evidence, state-of-the-art, and critiques.
+Through citing other established pieces of work, it is here to convince yourself and the readers of your work how and why you narrow the ideas down to the formally formulated problems,
+and also to help understand why you choose the particular research paths and approaches in your methodology.
+
+\newpage
+
+\section{State-of-the-art review}
+
+State-of-the-art review
+
+\section{Critical summary and analysis of key references}
+
+Critical summary and analysis of key references
+
+\subsection{Sample of Table}
+
+\begin{table} [h]
+	\centering
+	\caption{Sample of table.}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} \\
+		\hline
+		1 & 2 & 3 & 4 \\
+		\hline
+		5 & 6 & 7 & 8 \\
+		\hline
+	\end{tabular}
+	\label{tab:sample}
+\end{table}
+
+\autoref{tab:sample} as sample table.
+
+\section{Dummy Section}
+{\color{gray}\lipsum[1-2]}
+
+\subsection{Dummy Subsection}
+{\color{gray}\lipsum[3-4]}
+
+\fbox{%
+	\begin{varwidth}{0.5\linewidth}
+		\raggedleft%
+		\raisebox{-0.5\height}{\includegraphics[width=0.25\linewidth]{Chapter2/texlive.png}}\\[1ex]
+		--- A comprehensive distribution of\\
+		{\TeX} and friends
+\end{varwidth}}
+
+\endinput

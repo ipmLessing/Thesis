@@ -5,42 +5,24 @@ Problem Formulation
 
 \newpage
 
-\section{Research Problems}
+\section{Multi-Objective Control Problem}
 
-Research Problems
+Define the task of optimizing both performance (e.g., speed, precision) and SOH preservation.
 
-\section{Aims and Objectives}
+Introduce key components:
 
-Aims and Objectives
+State Space: Perception outputs (gate positions, trajectories) and SOH metrics (degradation rates, energy use).
 
-\section{Relevance, Novelty and Originality}
+Action Space: Control commands (throttle, yaw, pitch) for drones or decision-making strategies for energy optimization.
 
-Relevance, Novelty and Originality
+Reward System: Hybrid reward balancing performance and SOH.
 
-\subsection{Sample of Figure}
 
-\begin{figure} [htbp]
-	\centering
-	\includegraphics[width=0.33\linewidth]{MPU-Logo.pdf}
-	\caption{\gls{MPU} Logo.}
-	\label{fig:MPUlogo}
-\end{figure}
+\section{Integration Challenges}
 
-\autoref{fig:MPUlogo} and \autoref{fig:subfigure} as sample figure and sub-figure, respectively.
+Discuss the complexity of integrating YOLOv8 perception, SOH predictions, and RL in a single framework.
 
-\begin{figure} [htbp]
-	\centering
-	\begin{subfigure}{0.45\linewidth}
-		\includegraphics[width=\linewidth]{MPU-calligraphy.pdf}
-		\caption{Calligraphy A.}
-	\end{subfigure}
-	\quad
-	\begin{subfigure}{0.45\linewidth}
-		\includegraphics[width=\linewidth]{MPU-calligraphy-ol.pdf}
-		\caption{Calligraphy B.}
-	\end{subfigure}
-	\caption{\gls{MPU} Calligraphy.}
-	\label{fig:subfigure}
-\end{figure}
+Highlight trade-offs, such as prioritizing performance over SOH preservation in certain scenarios.
+
 
 \endinput

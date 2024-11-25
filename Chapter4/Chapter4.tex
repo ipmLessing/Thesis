@@ -1,96 +1,40 @@
 \newglossaryentry{GCD}{name={GCD}, description={Greatest Common Divisor}}
 \newglossaryentry{LCM}{name={LCM}, description={Least Common Multiple}}
 
-\chapter{Methodology}\label{ch:4}
+\chapter{Conceptual Design of the RL Framework}\label{ch:4}
 \minitoc
 
 Methodology
 
 \newpage
 
-\section{Description of methods to solve the problem}
+\section{System Overview}
 
-Description of methods to solve the problem.
+Provide an architectural diagram showing interactions between the perception module, SOH prediction module, and RL controller.
 
-\subsection{Sample of Algorithms}
 
-\begin{algorithm}[htbp]
-	\caption{Dot product of two vectors $\vec{v}=\left(x_1, y_1\right)$ and $\vec{u}=\left(x_2, y_2\right)$.}
-	\begin{algorithmic}[1]
-		\Function{\texttt{dotProduct}}{$\vec{u}$, $\vec{v}$}
-		\State $p \gets x_1\cdot x_2 + y_1\cdot y_2$
-		\State \Return $p$ \Comment{sample of comment}
-		\EndFunction
-	\end{algorithmic}
-	\label{alg:sample}
-\end{algorithm}
+\section{Perception Module}
 
-\autoref{alg:sample}, \ref{alg:GCD} and \ref{alg:LCM} are sample algorithms.
+Detail how YOLOv8 and keypoint detection provide the RL controller with accurate positional data.
 
-\begin{algorithm} [htbp]
-	\caption{Finding the Greatest Common Divisor (\gls{GCD}) of two given integers $a$ and $b$.}
-	\begin{algorithmic}[1]
-		\Function{Gcd}{$a,b$}
-		\While{$b \neq 0$}
-		\State $t \gets b$
-		\State $b \gets a\bmod b$
-		\State $a \gets t$
-		\EndWhile
-		\State \Return $a$
-		\EndFunction
-	\end{algorithmic}
-	\label{alg:GCD}
-\end{algorithm}
+Discuss the role of Blender for synthetic data generation and how Grounding DINO supports few-shot learning for gate detection.
 
-\begin{algorithm} [htbp]
-	\caption{Finding the Least Common Multiple (\gls{LCM}) of two given integers $a$ and $b$.}
-	\begin{algorithmic}[1]
-		\Function{Lcm}{$a,b$}
-		\State $\mathit{gcd} \gets \mbox{\Call{Gcd}{$a,b$}}$ \Comment{invoke \autoref{alg:GCD}}
-		\State $\mathit{lcm} \gets \left(a\times b\right)/\mathit{gcd}$
-		\State \Return $\mathit{lcm}$
-		\EndFunction
-	\end{algorithmic}
-	\label{alg:LCM}
-\end{algorithm}
 
-More advanced algorithms are presented in \autoref{alg:split} and \ref{alg:insertion}.
+\section{SOH Prediction Module}
 
-\begin{algorithm}[t]
-	\caption{Split binary search tree $T$ by key $k$.}
-	\begin{algorithmic}[1]
-		\Function{Split-Bst}{$T,k$}
-			\If{$T = \varnothing$}
-				\State $L,R \gets \varnothing,\varnothing$
-			\ElsIf{$\mathit{key}[T] < k$}\Comment{copy left, split right}
-				\State $\mathit{key}[L], \mathit{left}[L] \gets \mathit{key}[T], \mathit{left}[T]$
-				\State $\mathit{right}[L], R \gets \mbox{\Call{Split-Bst}{$\mathit{right}[T], k$}}$
-			\Else\Comment{split left, copy right}
-				\State $L, \mathit{left}[R] \gets \mbox{\Call{Split-Bst}{$\mathit{left}[T], k$}}$
-				\State $\mathit{key}[R], \mathit{right}[R] \gets \mathit{key}[T], \mathit{right}[T]$
-			\EndIf
-			\State \Return $L,R$
-		\EndFunction
-	\end{algorithmic}
-	\label{alg:split}
-\end{algorithm}
+Explain the Bi-LSTM model for predicting battery SOH and how its outputs influence RL decision-making.
 
-\begin{algorithm}[b]
-	\caption{Insertion sort of array $A$.}
-	\begin{algorithmic}[1]
-		\Procedure{Insertion-Sort}{$A$}
-			\For{$i \gets 2,\operatorname{len}(A)$}
-				\State $j \gets i$
-				\State $t \gets A_j$
-				\While{$j > 1 \wedge A_{j-1} > t$}
-					\State $A_j \gets A_{j-1}$
-					\State $j \gets j-1$
-				\EndWhile
-				\State $A_j \gets t$
-			\EndFor
-		\EndProcedure
-	\end{algorithmic}
-	\label{alg:insertion}
-\end{algorithm}
+Include use cases from EV datasets to demonstrate SOH trends.
+
+
+\section{RL Controller}
+
+Describe the proposed RL controller design:
+
+Hybrid reward structure balancing performance and SOH.
+
+Mechanisms for mode-switching (e.g., toggling between performance optimization and SOH preservation).
+
+Use a hypothetical case study to illustrate how the controller would handle conflicting objectives.
 
 \endinput

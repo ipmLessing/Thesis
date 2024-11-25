@@ -1,2 +1,4 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Description of methods to solve the problem}{\reset@font\mtcSfont 12}{section.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.1.1}Sample of Algorithms}{\reset@font\mtcSSfont 12}{subsection.4.1.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}System Overview}{\reset@font\mtcSfont 10}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Perception Module}{\reset@font\mtcSfont 10}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}SOH Prediction Module}{\reset@font\mtcSfont 10}{section.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}RL Controller}{\reset@font\mtcSfont 10}{section.4.4}}

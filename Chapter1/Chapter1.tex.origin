@@ -1,0 +1,99 @@
+\newglossaryentry{PhD}{name={PhD}, description={Doctor of Philosophy}}
+\newglossaryentry{R}{name={$\mathbb{R}$}, description={Real Number}}
+\newglossaryentry{FDCT}{name={FDCT}, description={Science and Technology Development Fund}}
+
+\chapter{Introduction}\label{ch:1}
+\minitoc
+
+The main objective of this template aims at providing guidelines and procedures for \gls{PhD} students to undertake their PhD Confirmatory Examination, which is one of the major requirements for the students to progress to the Confirmation of Candidature. This is considered as the specifications prepared by the PhD in Computer Applied Technology Program in the School of Applied Sciences.
+
+\newpage
+
+\section{General overview of the field of study}
+
+General overview of the field of study
+
+\section{Motivation and problem statement}
+
+Motivation and problem statement
+
+\subsection{Achievement and Publication}
+
+Achievement and Publication.
+
+\subsubsection{Achievement}
+
+\begin{itemize}
+	\item The award of ``Scientific and Technological R\&D Award for Postgraduates'' by the Science and Technology Development Fund (\gls{FDCT}) in November 2022.
+\end{itemize}
+
+\subsubsection{Publication}
+
+\begin{itemize}\sloppy\emergencystretch=1em
+	\item \bibentry{Picasso1999-Les}
+	\item \bibentry{Picasso1995-Le}
+\end{itemize}
+
+More information about Picasso can be found on the Wikipedia~\cite{picasso1881wiki}, or in the book: ``Pablo Picasso: The Man and the Image''~\cite{lyttle1989pablo}.
+
+\subsection{Sample of Equation}
+
+We present the general forms of linear and quadratic equations in this introduction. Below is a general quadratic equation,
+\begin{equation}\label{eq:sample1}
+	a x^2 + b x^2 + c = 0,
+\end{equation}
+where $a,b,c$ are coefficients in \gls{R}. The solutions are given as follows,
+\[
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.
+\]
+
+Below is a system of linear equations in two variables,
+\begin{equation}\label{eq:sample2}
+	\left.
+	\begin{array}{r@{}r@{}l@{}}
+		a_1 x +{} & b_1 y & {}= c_1\\
+		a_2 x +{} & b_2 y & {}= c_2
+	\end{array}
+	\right\}
+	\implies
+	\begin{dcases}
+		x = \frac{\begin{vmatrix}
+				c_1 & b_1 \\
+				c_2 & b_2
+		\end{vmatrix}}{\Delta} \\
+		y = \frac{\begin{vmatrix}
+				a_1 & c_1 \\
+				a_2 & c_2
+		\end{vmatrix}}{\Delta}
+	\end{dcases},
+\end{equation}
+where $\Delta$ is the determinant of the coefficient matrix, and cannot be zero to obtain a unique solution,
+\[
+\Delta = \begin{vmatrix}
+	a_1 & b_1 \\
+	a_2 & b_2
+\end{vmatrix}.
+\]
+
+As shown above, \autoref{eq:sample1} and \autoref{eq:sample2} are sample equations. We often write \autoref{eq:sample2} in the form \autoref{eq:sample3} of matrix multiplication,
+\begin{equation}\label{eq:sample3}
+	\begin{bmatrix}
+		a_1 & b_1 \\
+		a_2 & b_2
+	\end{bmatrix}
+	\begin{bmatrix}
+		x \\
+		y
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		c_1 \\
+		c_2
+	\end{bmatrix}.
+\end{equation}
+
+\section{Thesis organization}
+
+Thesis organization
+
+\endinput

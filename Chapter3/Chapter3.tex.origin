@@ -1,0 +1,46 @@
+\chapter{Problem Formulation}\label{ch:3}
+\minitoc
+
+Problem Formulation
+
+\newpage
+
+\section{Research Problems}
+
+Research Problems
+
+\section{Aims and Objectives}
+
+Aims and Objectives
+
+\section{Relevance, Novelty and Originality}
+
+Relevance, Novelty and Originality
+
+\subsection{Sample of Figure}
+
+\begin{figure} [htbp]
+	\centering
+	\includegraphics[width=0.33\linewidth]{MPU-Logo.pdf}
+	\caption{\gls{MPU} Logo.}
+	\label{fig:MPUlogo}
+\end{figure}
+
+\autoref{fig:MPUlogo} and \autoref{fig:subfigure} as sample figure and sub-figure, respectively.
+
+\begin{figure} [htbp]
+	\centering
+	\begin{subfigure}{0.45\linewidth}
+		\includegraphics[width=\linewidth]{MPU-calligraphy.pdf}
+		\caption{Calligraphy A.}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}{0.45\linewidth}
+		\includegraphics[width=\linewidth]{MPU-calligraphy-ol.pdf}
+		\caption{Calligraphy B.}
+	\end{subfigure}
+	\caption{\gls{MPU} Calligraphy.}
+	\label{fig:subfigure}
+\end{figure}
+
+\endinput
