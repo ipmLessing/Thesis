@@ -1,3 +1,15 @@
+\newglossaryentry{EV}{name={EV}, description={Electric Vehicle}}
+\newglossaryentry{Bi-LSTM}{name={Bi-LSTM}, description={Bidirectional Long Short-Term Memory}}
+\newglossaryentry{OBD-II}{name={OBD-II}, description={On-Board Diagnostic II}}
+\newglossaryentry{SOC}{name={SOC}, description={State of Charge}}
+\newglossaryentry{BMS}{name={BMS}, description={Battery Management System}}
+\newglossaryentry{RL}{name={RL}, description={Reinforcement Learning}}
+\newglossaryentry{SOH}{name={SOH}, description={State of Health}}
+\newglossaryentry{MAE}{name={MAE}, description={Mean Absolute Error}}
+\newglossaryentry{CNN}{name={CNN}, description={Convolutional Neural Network}}
+\newglossaryentry{MLP}{name={MLP}, description={Multilayer Perceptron}}
+
+
 \chapter{Case Studies}\label{ch:5}
 \minitoc
 
@@ -14,21 +26,163 @@ Compare accuracy between real-world and synthetic data (e.g., 75\% vs. 65\%).
 Highlight the impact of Blender and Grounding DINO on model performance.
 
 
-\section{SOH Management Case Study: EV Batteries}
+\section{Driving Behavior and Thermal Dynamics: A Case Study of EV Batteries}
+\label{sec:thermal_dynamics_case_study}
 
-Present Bi-LSTM results on SOH prediction accuracy:
+Understanding the relationship between driving behavior and battery thermal dynamics is critical for improving the performance and longevity of \glspl{EV}. 
+Thermal conditions directly impact battery efficiency, safety, and long-term degradation. 
+This case study explores how different driving behaviors influence battery temperature using a large-scale dataset collected from a Nissan Leaf \gls{EV}. 
+A \gls{Bi-LSTM} model is employed to predict battery temperature, providing insights into thermal management strategies and their potential role in preserving battery health.
 
-Analyze degradation trends and energy optimization insights from your ICECI and CCNC papers.
+\subsection{Dataset and Data Collection}
+The data for this study was collected over a year using a custom IoT device connected to the \gls{EV}'s \gls{OBD-II} port. The dataset comprises over 4.5 million samples, recorded at a temporal resolution of 250 milliseconds, spanning 7,100 kilometers of real-world driving. Key recorded parameters include:
+
+\begin{itemize}
+    \item \textbf{Battery Metrics:} Voltage, current, pack temperature, and \gls{SOC}.
+    \item \textbf{Driving Behavior:} Acceleration, braking pedal pressure, and speed.
+    \item \textbf{Environmental Factors:} Ambient temperature, weather conditions, and seasonal variations.
+\end{itemize}
+
+The dataset captures diverse driving styles, environmental conditions, and road types, enabling a detailed analysis of how external and behavioral factors influence battery temperature.
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/seasonal_variation.png} % Replace with the path to Figure 4
+%     \caption{Seasonal variations of battery pack temperature.}
+%     \label{fig:seasonal_variation}
+% \end{figure}
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/braking_pressure.png} % Replace with the path to Figure 5
+%     \caption{Histogram of braking pressure and its correlation with aggressive driving behavior.}
+%     \label{fig:braking_pressure}
+% \end{figure}
+
+\subsection{Driving Behavior and Battery Thermal Conditions}
+Driving behavior significantly impacts battery temperature. This section categorizes driving styles and examines their thermal effects:
+
+\begin{itemize}
+    \item \textbf{Gentle Driving:} Smooth accelerations and decelerations kept battery temperatures within the optimal range (15°C–35°C), minimizing stress on the battery and maintaining efficiency.
+    \item \textbf{Aggressive Driving:} Sharp accelerations and frequent braking led to temperature surges exceeding 41°C, particularly in high ambient temperatures, imposing additional thermal stress on the battery.
+    \item \textbf{Cautious Driving:} Minimal pedal input was typical, but during winter conditions, prolonged exposure to suboptimal temperatures (<15°C) resulted in efficiency losses and potential risks to long-term performance.
+\end{itemize}
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/temp_aggressive.png} % Replace with the path to Figure 7
+%     \caption{Temperature distribution under aggressive driving.}
+%     \label{fig:temp_aggressive}
+% \end{figure}
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/temp_winter.png} % Replace with the path to Figure 8
+%     \caption{Temperature trends during winter driving.}
+%     \label{fig:temp_winter}
+% \end{figure}
+
+\subsection{Bidirectional Long Short-Term Memory Model for Temperature Prediction}
+To predict battery pack temperature under varying conditions, a \gls{Bi-LSTM} model was developed. The architecture and training process are described below:
+
+\subsubsection{Model Architecture}
+The \gls{Bi-LSTM} network consists of three stacked LSTM layers followed by dense layers for regression. It incorporates features such as:
+\begin{itemize}
+    \item Driving behavior metrics (acceleration, braking pressure).
+    \item Battery parameters (current, \gls{SOC}).
+    \item Environmental factors (ambient temperature).
+\end{itemize}
+
+\subsubsection{Feature Engineering}
+Time-series features were engineered to capture temporal dependencies:
+\begin{itemize}
+    \item Metrics such as cumulative acceleration and braking frequency over 10-minute windows.
+    \item Temporal encoding of cyclic features, such as time of day and seasonal effects.
+\end{itemize}
+
+\subsubsection{Training Process}
+Data was segmented into overlapping 10-minute windows. Model hyperparameters were optimized using Optuna, achieving:
+\begin{itemize}
+    \item A \gls{MAE} of 2.92°C on the test set.
+    \item An \gls{MAE} of 1.7°C during cross-validation.
+\end{itemize}
+The \gls{Bi-LSTM} outperformed baseline models, including \glspl{CNN} and \glspl{MLP}, across key performance metrics.
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/bilstm_architecture.png} % Replace with the path to Figure 10
+%     \caption{Bi-LSTM architecture with feature flow.}
+%     \label{fig:bilstm_architecture}
+% \end{figure}
+
+\begin{table}[ht]
+    \centering
+    \caption{Performance comparison of \gls{Bi-LSTM} with baseline models.}
+    \label{tab:model_performance}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Model & MAE (°C) & RMSE (°C) & Accuracy (\%) \\ \hline
+        \gls{Bi-LSTM} & 2.31 & 2.92 & 95.6 \\ \hline
+        \gls{CNN} & 3.15 & 3.89 & 90.2 \\ \hline
+        MLP & 3.42 & 4.01 & 88.7 \\ \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Results}
+The \gls{Bi-LSTM} model demonstrated robust performance in capturing the effects of driving behavior on battery temperature:
+
+\subsubsection{Prediction Accuracy}
+The model effectively predicted:
+\begin{itemize}
+    \item Temperature surges caused by aggressive driving.
+    \item Low-temperature conditions during winter driving.
+\end{itemize}
+
+\subsubsection{Behavioral Analysis}
+Aggressive driving exhibited occasional overestimations due to rapid transitions, while gentle and cautious driving resulted in stable predictions.
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/prediction_vs_actual.png} % Replace with the path to Figure 12
+%     \caption{Prediction vs. actual temperature for different driving styles.}
+%     \label{fig:prediction_vs_actual}
+% \end{figure}
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=\textwidth]{figures/error_distribution.png} % Replace with the path to Figure 13
+%     \caption{Error distribution across seasons and driving behaviors.}
+%     \label{fig:error_distribution}
+% \end{figure}
+
+\subsection{Discussion}
+\textbf{Key Insights:}
+\begin{itemize}
+    \item Aggressive driving imposes significant thermal stress on the battery, increasing the risk of accelerated degradation.
+    \item Gentle driving minimizes temperature fluctuations, preserving thermal stability and potentially extending battery lifespan.
+\end{itemize}
+
+\textbf{Implications for \gls{BMS}:}
+\begin{itemize}
+    \item The Bi-LSTM model can enable real-time thermal management by predicting temperature trends and issuing proactive alerts for high-risk behaviors.
+    \item Integrating temperature predictions into \gls{BMS} could optimize battery health by dynamically adjusting operating conditions.
+\end{itemize}
+
+\textbf{Limitations and Future Work:}
+\begin{itemize}
+    \item The model's accuracy depends on high-quality data, and edge cases with rapid behavioral shifts remain challenging.
+    \item Future research should explore how thermal predictions can directly influence \gls{SOH} management strategies.
+\end{itemize}
 
 
-\section{Proof-of-Concept Simulation for the RL Framework}
+\section{Proof-of-Concept Simulation for the \gls{RL} Framework}
 
 Simulate a simplified scenario where perception and SOH predictions are used to inform high-level decision-making.
 
-Use existing datasets to demonstrate how the RL architecture could function in practice, focusing on:
+Use existing datasets to demonstrate how the \gls{RL} architecture could function in practice, focusing on:
 
 Mode-switching behavior.
 
-Trade-offs between performance and SOH metrics.
+Trade-offs between performance and \gls{SOH} metrics.
 
 \endinput

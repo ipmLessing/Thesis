@@ -1,48 +1,48 @@
 \begin{thebibliography}{1}
 
 \bibitem{app_mono_camera}
-Ka~Seng Chou, Teng~Lai Wong, Kei~Long Wong, Lu~Shen, Davide Aguiari, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Ka~Seng Chou, Teng~Lai Wong, Kei~Long Wong, Lu~Shen, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``A Lightweight Robust Distance Estimation Method for Navigation Aiding in Unsupervised Environment Using Monocular Camera''.
 \newblock {\em Applied Sciences}, 13(19), 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.3390/app131911038})}.
 
 \bibitem{app_taxi}
-Ka~Seng Chou, Kei~Long Wong, Boliang Zhang, Davide Aguiari, Sio~Kei Im, Chan~Tong Lam, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Ka~Seng Chou, Kei~Long Wong, Boliang Zhang, Davide Aguiari, Sio~Kei Im, Chan~Tong Lam, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``Taxi Demand and Fare Prediction with Hybrid Models: Enhancing Efficiency and User Experience in City Transportation''.
 \newblock {\em Applied Sciences}, 13(18), 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.3390/app131810192})}.
 
 \bibitem{app_review}
-Ka~Seng Chou, Kei~Long Wong, Davide Aguiari, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Ka~Seng Chou, Kei~Long Wong, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``Recognition of Driving Behavior in Electric Vehicle’s Li-Ion Battery Aging''.
 \newblock {\em Applied Sciences}, 13(9), 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.3390/app13095608})}.
 
 \bibitem{CCNC_2023}
-Ka~Seng Chou, Davide Aguiari, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Ka~Seng Chou, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``Impact Evaluation of Driving Style on Electric Vehicle Battery Based on Field Testing Result''.
 \newblock In {\em 2023 IEEE 20th Consumer Communications \& Networking Conference (CCNC)}, pages 1143--1146, 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.1109/CCNC51644.2023.10060822})}.
 
 \bibitem{ICECI_2022}
-Ka~Seng Chou, Kei~Long Wong, Davide Aguiari, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Ka~Seng Chou, Kei~Long Wong, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``Forecasting the Temperature of BEV Battery Pack Based on Field Testing Data''.
 \newblock In Zhu Xiao, Ping Zhao, Xingxia Dai, and Jinmei Shu, editors, {\em Edge Computing and IoT: Systems, Management and Security}, pages 3--17, Cham, 2023. Springer Nature Switzerland.
 
 \bibitem{app_dataset}
-Teng-Lai Wong, Ka-Seng Chou, Kei-Long Wong, and Su-Kit Tang.
+Teng-lai Wong, Ka-seng Chou, Kei-long Wong, and Su-kit Tang.
 \newblock ``Dataset of Public Objects in Uncontrolled Environment for Navigation Aiding''.
 \newblock {\em Data}, 8(2), 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.3390/data8020042})}.
 
 \bibitem{app_KL_electronics}
-Kei~Long Wong, Ka~Seng Chou, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Kei~Long Wong, Ka~Seng Chou, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``A Novel Fusion Approach Consisting of GAN and State-of-Charge Estimator for Synthetic Battery Operation Data Generation''.
 \newblock {\em Electronics}, 12(3), 2023.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.3390/electronics12030657})}.
 
 \bibitem{EPEC_KL}
-Kei~Long Wong, Ka~Seng Chou, Davide Aguiari, Rita Tse, Su-Kit Tang, and Giovanni Pau.
+Kei~Long Wong, Ka~Seng Chou, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
 \newblock ``Identifying Degradation Indicators for Electric Vehicle Battery Based on Field Testing Data''.
 \newblock In {\em 2022 IEEE Electrical Power and Energy Conference (EPEC)}, pages 206--211, 2022.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.1109/EPEC56903.2022.9999742})}.

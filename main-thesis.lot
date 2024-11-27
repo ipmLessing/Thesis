@@ -16,8 +16,9 @@
 \contentsline {xchapter}{Conceptual Design of the RL Framework}{9}{chapter.4}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Case Studies}{11}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Performance comparison of \gls {Bi-LSTM} with baseline models.}}{14}{table.caption.10}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Results and Discussion}{13}{chapter.6}%
+\contentsline {xchapter}{Results and Discussion}{17}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Future Directions}{15}{chapter.7}%
+\contentsline {xchapter}{Conclusion and Future Directions}{19}{chapter.7}%
 \contentsfinish 

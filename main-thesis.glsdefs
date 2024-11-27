@@ -138,3 +138,283 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{EV}%
+{%
+name={EV},%
+sort={EV},%
+type={main},%
+first={EV},%
+firstplural={EVs},%
+text={EV},%
+plural={EVs},%
+description={Electric Vehicle},%
+descriptionplural={Electric Vehicle},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{Bi-LSTM}%
+{%
+name={Bi-LSTM},%
+sort={Bi-LSTM},%
+type={main},%
+first={Bi-LSTM},%
+firstplural={Bi-LSTMs},%
+text={Bi-LSTM},%
+plural={Bi-LSTMs},%
+description={Bidirectional Long Short-Term Memory},%
+descriptionplural={Bidirectional Long Short-Term Memory},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{OBD-II}%
+{%
+name={OBD-II},%
+sort={OBD-II},%
+type={main},%
+first={OBD-II},%
+firstplural={OBD-IIs},%
+text={OBD-II},%
+plural={OBD-IIs},%
+description={On-Board Diagnostic II},%
+descriptionplural={On-Board Diagnostic II},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SOC}%
+{%
+name={SOC},%
+sort={SOC},%
+type={main},%
+first={SOC},%
+firstplural={SOCs},%
+text={SOC},%
+plural={SOCs},%
+description={State of Charge},%
+descriptionplural={State of Charge},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{BMS}%
+{%
+name={BMS},%
+sort={BMS},%
+type={main},%
+first={BMS},%
+firstplural={BMSs},%
+text={BMS},%
+plural={BMSs},%
+description={Battery Management System},%
+descriptionplural={Battery Management System},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RL}%
+{%
+name={RL},%
+sort={RL},%
+type={main},%
+first={RL},%
+firstplural={RLs},%
+text={RL},%
+plural={RLs},%
+description={Reinforcement Learning},%
+descriptionplural={Reinforcement Learning},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SOH}%
+{%
+name={SOH},%
+sort={SOH},%
+type={main},%
+first={SOH},%
+firstplural={SOHs},%
+text={SOH},%
+plural={SOHs},%
+description={State of Health},%
+descriptionplural={State of Health},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MAE}%
+{%
+name={MAE},%
+sort={MAE},%
+type={main},%
+first={MAE},%
+firstplural={MAEs},%
+text={MAE},%
+plural={MAEs},%
+description={Mean Absolute Error},%
+descriptionplural={Mean Absolute Error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CNN}%
+{%
+name={CNN},%
+sort={CNN},%
+type={main},%
+first={CNN},%
+firstplural={CNNs},%
+text={CNN},%
+plural={CNNs},%
+description={Convolutional Neural Network},%
+descriptionplural={Convolutional Neural Network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MLP}%
+{%
+name={MLP},%
+sort={MLP},%
+type={main},%
+first={MLP},%
+firstplural={MLPs},%
+text={MLP},%
+plural={MLPs},%
+description={Multilayer Perceptron},%
+descriptionplural={Multilayer Perceptron},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
