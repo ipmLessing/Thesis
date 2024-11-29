@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{app_mono_camera}
 Ka~Seng Chou, Teng~Lai Wong, Kei~Long Wong, Lu~Shen, Davide Aguiari, Rita Tse, Su-kit Tang, and Giovanni Pau.
@@ -52,5 +52,41 @@ Davide Aguiari, Ka~Seng Chou, Rita Tse, and Giovanni Pau.
 \newblock ``Monitoring Electric Vehicles on The Go''.
 \newblock In {\em 2022 IEEE 19th Annual Consumer Communications \& Networking Conference (CCNC)}, pages 885--888. IEEE, 2022.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.1109/CCNC49033.2022.9700713})}.
+
+\bibitem{calearo2019modeling}
+Lisa Calearo, Andreas Thingvad, and Mattia Marinelli.
+\newblock ``Modeling of battery electric vehicles for degradation studies''.
+\newblock In {\em 2019 54th International Universities Power Engineering Conference (UPEC)}, pages 1--6. IEEE, 2019.
+
+\bibitem{kane_2020_see}
+Mark Kane.
+\newblock ``See A 2011 Nissan LEAF Battery Dissected Professionally: Video'', 01 2020.
+\newblock {(\urlstyle{same}\url{https://insideevs.com/news/390574/2011-nissan-leaf-battery-dissected-professionally/})}.
+
+\bibitem{xu2021estimation}
+Zhicheng Xu, Jun Wang, Peter~D Lund, and Yaoming Zhang.
+\newblock ``Estimation and prediction of state of health of electric vehicle batteries using discrete incremental capacity analysis based on real driving data''.
+\newblock {\em Energy}, 225:120160, 2021.
+
+\bibitem{petnehazi2019recurrent}
+G{\'a}bor Petneh{\'a}zi.
+\newblock ``Recurrent neural networks for time series forecasting''.
+\newblock {\em arXiv preprint arXiv:1901.00069}, 2019.
+
+\bibitem{fang-2012}
+Kaizheng Fang, Daobin Mu, Shi Chen, Borong Wu, and Feng Wu.
+\newblock ``{A prediction model based on artificial neural network for surface temperature simulation of nickel–metal hydride battery during charging}''.
+\newblock {\em Journal of Power Sources}, 208:378--382, 2012.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2012.02.059})}.
+
+\bibitem{jaliliantabar2022prediction}
+Farzad Jaliliantabar, Rizalman Mamat, and Sudhakar Kumarasamy.
+\newblock ``Prediction of lithium-ion battery temperature in different operating conditions equipped with passive battery thermal management system by artificial neural networks''.
+\newblock {\em Materials Today: Proceedings}, 48:1796--1804, 2022.
+
+\bibitem{optuna_2019}
+Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama.
+\newblock ``Optuna: A Next-generation Hyperparameter Optimization Framework''.
+\newblock In {\em Proceedings of the 25rd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}, 2019.
 
 \end{thebibliography}

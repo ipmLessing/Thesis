@@ -4,8 +4,8 @@
 \contentsline {xchapter}{Abstract}{iii}{chapter*.2}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Acknowledgments}{v}{chapter*.3}%
-\contentsline {xchapter}{}{xv}{table.0.1}%
-\contentsline {xchapter}{}{xv}{table.0.1}%
+\contentsline {xchapter}{}{xvi}{table.0.1}%
+\contentsline {xchapter}{}{xvi}{table.0.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}%
 \addvspace {10\p@ }
@@ -15,10 +15,14 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conceptual Design of the RL Framework}{9}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Case Studies}{11}{chapter.5}%
-\contentsline {table}{\numberline {5.1}{\ignorespaces Performance comparison of \gls {Bi-LSTM} with baseline models.}}{14}{table.caption.10}%
+\contentsline {xchapter}{Electrified Motion: Driving Patterns, Energy Use, and Thermal Dynamics in EV Batteries}{11}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Range Specification for Data Filtering Criteria}}{15}{table.caption.12}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces The summary of filtered discharging dataset}}{16}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Top 10 degradation variables correlated to SOH}}{23}{table.caption.20}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Good driving style}}{26}{table.caption.23}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Optimization and Model Settings}}{28}{table.caption.25}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Results and Discussion}{17}{chapter.6}%
+\contentsline {xchapter}{Results and Discussion}{31}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Future Directions}{19}{chapter.7}%
+\contentsline {xchapter}{Conclusion and Future Directions}{35}{chapter.7}%
 \contentsfinish 

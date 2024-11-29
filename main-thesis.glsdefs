@@ -418,3 +418,395 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{MSE}%
+{%
+name={MSE},%
+sort={MSE},%
+type={main},%
+first={MSE},%
+firstplural={MSEs},%
+text={MSE},%
+plural={MSEs},%
+description={Mean Squared Error},%
+descriptionplural={Mean Squared Error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RMSE}%
+{%
+name={RMSE},%
+sort={RMSE},%
+type={main},%
+first={RMSE},%
+firstplural={RMSEs},%
+text={RMSE},%
+plural={RMSEs},%
+description={Root Mean Squared Error},%
+descriptionplural={Root Mean Squared Error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{NMC}%
+{%
+name={NMC},%
+sort={NMC},%
+type={main},%
+first={NMC},%
+firstplural={NMCs},%
+text={NMC},%
+plural={NMCs},%
+description={lithium nickel manganese cobalt oxide (LiNiMnGoO\textsubscript {2})},%
+descriptionplural={lithium nickel manganese cobalt oxide (LiNiMnGoO\textsubscript {2})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{IoT}%
+{%
+name={IoT},%
+sort={IoT},%
+type={main},%
+first={IoT},%
+firstplural={IoTs},%
+text={IoT},%
+plural={IoTs},%
+description={Internet of Things},%
+descriptionplural={Internet of Things},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ECU}%
+{%
+name={ECU},%
+sort={ECU},%
+type={main},%
+first={ECU},%
+firstplural={ECUs},%
+text={ECU},%
+plural={ECUs},%
+description={Electronic Control Unit},%
+descriptionplural={Electronic Control Unit},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ECO}%
+{%
+name={ECO},%
+sort={ECO},%
+type={main},%
+first={ECO},%
+firstplural={ECOs},%
+text={ECO},%
+plural={ECOs},%
+description={Economy Mode},%
+descriptionplural={Economy Mode},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{GPS}%
+{%
+name={GPS},%
+sort={GPS},%
+type={main},%
+first={GPS},%
+firstplural={GPSs},%
+text={GPS},%
+plural={GPSs},%
+description={Global Positioning System},%
+descriptionplural={Global Positioning System},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{HV}%
+{%
+name={HV},%
+sort={HV},%
+type={main},%
+first={HV},%
+firstplural={HVs},%
+text={HV},%
+plural={HVs},%
+description={High Voltage},%
+descriptionplural={High Voltage},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{BEV}%
+{%
+name={BEV},%
+sort={BEV},%
+type={main},%
+first={BEV},%
+firstplural={BEVs},%
+text={BEV},%
+plural={BEVs},%
+description={Battery Electric Vehicle},%
+descriptionplural={Battery Electric Vehicle},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ML}%
+{%
+name={ML},%
+sort={ML},%
+type={main},%
+first={ML},%
+firstplural={MLs},%
+text={ML},%
+plural={MLs},%
+description={Machine Learning},%
+descriptionplural={Machine Learning},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ANN}%
+{%
+name={ANN},%
+sort={ANN},%
+type={main},%
+first={ANN},%
+firstplural={ANNs},%
+text={ANN},%
+plural={ANNs},%
+description={Artificial Neural Network},%
+descriptionplural={Artificial Neural Network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LSTM}%
+{%
+name={LSTM},%
+sort={LSTM},%
+type={main},%
+first={LSTM},%
+firstplural={LSTMs},%
+text={LSTM},%
+plural={LSTMs},%
+description={Long Short-Term Memory},%
+descriptionplural={Long Short-Term Memory},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{AI}%
+{%
+name={AI},%
+sort={AI},%
+type={main},%
+first={AI},%
+firstplural={AIs},%
+text={AI},%
+plural={AIs},%
+description={Artificial Intelligence},%
+descriptionplural={Artificial Intelligence},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{FC}%
+{%
+name={FC},%
+sort={FC},%
+type={main},%
+first={FC},%
+firstplural={FCs},%
+text={FC},%
+plural={FCs},%
+description={Fully Connected},%
+descriptionplural={Fully Connected},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

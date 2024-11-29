@@ -4,8 +4,8 @@
 \contentsline {xchapter}{Abstract}{iii}{chapter*.2}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Acknowledgments}{v}{chapter*.3}%
-\contentsline {xchapter}{}{xv}{table.0.1}%
-\contentsline {xchapter}{}{xv}{table.0.1}%
+\contentsline {xchapter}{}{xvi}{table.0.1}%
+\contentsline {xchapter}{}{xvi}{table.0.1}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Introduction}{1}{chapter.1}%
 \addvspace {10\p@ }
@@ -15,9 +15,19 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conceptual Design of the RL Framework}{9}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Case Studies}{11}{chapter.5}%
+\contentsline {xchapter}{Electrified Motion: Driving Patterns, Energy Use, and Thermal Dynamics in EV Batteries}{11}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Data collection setup}}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces State of Health and battery pack temperature from the collected period}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The bidirectional linear interpolation of null and missing values}}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The temperature sample in 10 minutes}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The consecutive many-to-many window training input for Artificial Neural Network.}}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Battery health degradation in the \textit {Nissan Leaf}. (a) SOH decline by distance on the extended dataset. (b) Shift in peak charging voltage.}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Overview of power consumption and influencing factors}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Battery temperature status on different driving styles}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Power band of the \textit {Nissan Leaf} at different speed}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Optuna framework structure for automatic search and network construction.}}{27}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Results and Discussion}{17}{chapter.6}%
+\contentsline {xchapter}{Results and Discussion}{31}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Future Directions}{19}{chapter.7}%
+\contentsline {xchapter}{Conclusion and Future Directions}{35}{chapter.7}%
 \contentsfinish 
