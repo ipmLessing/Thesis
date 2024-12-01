@@ -82,62 +82,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{GCD}%
-{%
-name={GCD},%
-sort={GCD},%
-type={main},%
-first={GCD},%
-firstplural={GCDs},%
-text={GCD},%
-plural={GCDs},%
-description={Greatest Common Divisor},%
-descriptionplural={Greatest Common Divisor},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{LCM}%
-{%
-name={LCM},%
-sort={LCM},%
-type={main},%
-first={LCM},%
-firstplural={LCMs},%
-text={LCM},%
-plural={LCMs},%
-description={Least Common Multiple},%
-descriptionplural={Least Common Multiple},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{EV}%
 {%
 name={EV},%
@@ -149,34 +93,6 @@ text={EV},%
 plural={EVs},%
 description={Electric Vehicle},%
 descriptionplural={Electric Vehicle},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{Bi-LSTM}%
-{%
-name={Bi-LSTM},%
-sort={Bi-LSTM},%
-type={main},%
-first={Bi-LSTM},%
-firstplural={Bi-LSTMs},%
-text={Bi-LSTM},%
-plural={Bi-LSTMs},%
-description={Bidirectional Long Short-Term Memory},%
-descriptionplural={Bidirectional Long Short-Term Memory},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -278,34 +194,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{RL}%
-{%
-name={RL},%
-sort={RL},%
-type={main},%
-first={RL},%
-firstplural={RLs},%
-text={RL},%
-plural={RLs},%
-description={Reinforcement Learning},%
-descriptionplural={Reinforcement Learning},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{SOH}%
 {%
 name={SOH},%
@@ -317,146 +205,6 @@ text={SOH},%
 plural={SOHs},%
 description={State of Health},%
 descriptionplural={State of Health},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{MAE}%
-{%
-name={MAE},%
-sort={MAE},%
-type={main},%
-first={MAE},%
-firstplural={MAEs},%
-text={MAE},%
-plural={MAEs},%
-description={Mean Absolute Error},%
-descriptionplural={Mean Absolute Error},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{CNN}%
-{%
-name={CNN},%
-sort={CNN},%
-type={main},%
-first={CNN},%
-firstplural={CNNs},%
-text={CNN},%
-plural={CNNs},%
-description={Convolutional Neural Network},%
-descriptionplural={Convolutional Neural Network},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{MLP}%
-{%
-name={MLP},%
-sort={MLP},%
-type={main},%
-first={MLP},%
-firstplural={MLPs},%
-text={MLP},%
-plural={MLPs},%
-description={Multilayer Perceptron},%
-descriptionplural={Multilayer Perceptron},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{MSE}%
-{%
-name={MSE},%
-sort={MSE},%
-type={main},%
-first={MSE},%
-firstplural={MSEs},%
-text={MSE},%
-plural={MSEs},%
-description={Mean Squared Error},%
-descriptionplural={Mean Squared Error},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{RMSE}%
-{%
-name={RMSE},%
-sort={RMSE},%
-type={main},%
-first={RMSE},%
-firstplural={RMSEs},%
-text={RMSE},%
-plural={RMSEs},%
-description={Root Mean Squared Error},%
-descriptionplural={Root Mean Squared Error},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -670,6 +418,90 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{SVR}%
+{%
+name={SVR},%
+sort={SVR},%
+type={main},%
+first={SVR},%
+firstplural={SVRs},%
+text={SVR},%
+plural={SVRs},%
+description={Support Vector Regression},%
+descriptionplural={Support Vector Regression},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{CNN}%
+{%
+name={CNN},%
+sort={CNN},%
+type={main},%
+first={CNN},%
+firstplural={CNNs},%
+text={CNN},%
+plural={CNNs},%
+description={Convolutional Neural Network},%
+descriptionplural={Convolutional Neural Network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MLP}%
+{%
+name={MLP},%
+sort={MLP},%
+type={main},%
+first={MLP},%
+firstplural={MLPs},%
+text={MLP},%
+plural={MLPs},%
+description={Multilayer Perceptron},%
+descriptionplural={Multilayer Perceptron},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{ML}%
 {%
 name={ML},%
@@ -754,6 +586,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{Bi-LSTM}%
+{%
+name={Bi-LSTM},%
+sort={Bi-LSTM},%
+type={main},%
+first={Bi-LSTM},%
+firstplural={Bi-LSTMs},%
+text={Bi-LSTM},%
+plural={Bi-LSTMs},%
+description={Bidirectional Long Short-Term Memory},%
+descriptionplural={Bidirectional Long Short-Term Memory},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{AI}%
 {%
 name={AI},%
@@ -793,6 +653,118 @@ text={FC},%
 plural={FCs},%
 description={Fully Connected},%
 descriptionplural={Fully Connected},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RL}%
+{%
+name={RL},%
+sort={RL},%
+type={main},%
+first={RL},%
+firstplural={RLs},%
+text={RL},%
+plural={RLs},%
+description={Reinforcement Learning},%
+descriptionplural={Reinforcement Learning},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MSE}%
+{%
+name={MSE},%
+sort={MSE},%
+type={main},%
+first={MSE},%
+firstplural={MSEs},%
+text={MSE},%
+plural={MSEs},%
+description={Mean Squared Error},%
+descriptionplural={Mean Squared Error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RMSE}%
+{%
+name={RMSE},%
+sort={RMSE},%
+type={main},%
+first={RMSE},%
+firstplural={RMSEs},%
+text={RMSE},%
+plural={RMSEs},%
+description={Root Mean Squared Error},%
+descriptionplural={Root Mean Squared Error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MAE}%
+{%
+name={MAE},%
+sort={MAE},%
+type={main},%
+first={MAE},%
+firstplural={MAEs},%
+text={MAE},%
+plural={MAEs},%
+description={Mean Absolute Error},%
+descriptionplural={Mean Absolute Error},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

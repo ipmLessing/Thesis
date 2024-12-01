@@ -1,19 +1,7 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Introduction}{\reset@font\mtcSfont 12}{section.5.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}Battery Structure and Internet of Things Device}{\reset@font\mtcSfont 12}{section.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Dataset and Data Collection}{\reset@font\mtcSfont 12}{section.5.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Data Preprocessing and Feature Engineering}{\reset@font\mtcSfont 13}{section.5.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.1}Data Preprocessing}{\reset@font\mtcSSfont 14}{subsection.5.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.2}Feature Engineering}{\reset@font\mtcSSfont 17}{subsection.5.4.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {5.4.2.1}Data resampling}{\reset@font\mtcSSSfont 17}{subsubsection.5.4.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {5.4.2.2}Cyclical encoding}{\reset@font\mtcSSSfont 18}{subsubsection.5.4.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.4.3}Data windowing}{\reset@font\mtcSSfont 18}{subsection.5.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Charging and idling phases of the entire dataset}{\reset@font\mtcSfont 19}{section.5.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.6}Driving Behavior and Power Consumption}{\reset@font\mtcSfont 21}{section.5.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.7}Driving Behavior and Battery Thermal Conditions}{\reset@font\mtcSfont 23}{section.5.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.8}Bidirectional Long Short-Term Memory Model for Temperature Prediction}{\reset@font\mtcSfont 26}{section.5.8}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.8.1}Model Architecture}{\reset@font\mtcSSfont 26}{subsection.5.8.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.8.2}Training Process}{\reset@font\mtcSSfont 27}{subsection.5.8.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.9}Results}{\reset@font\mtcSfont 27}{section.5.9}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {5.9.0.1}Prediction Accuracy}{\reset@font\mtcSSSfont 28}{subsubsection.5.9.0.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {5.9.1}Behavioral Analysis}{\reset@font\mtcSSfont 28}{subsection.5.9.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.10}Discussion}{\reset@font\mtcSfont 28}{section.5.10}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.1}Perception Module Performance}{\reset@font\mtcSfont 34}{section.5.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.2}SOH Prediction Module Performance}{\reset@font\mtcSfont 34}{section.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.3}Insights from Conceptual RL Framework}{\reset@font\mtcSfont 34}{section.5.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.4}Scalability and Generalization}{\reset@font\mtcSfont 34}{section.5.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.5}Ethical and Safety Considerations}{\reset@font\mtcSfont 34}{section.5.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.6}Perception Case Study: Drone Racing}{\reset@font\mtcSfont 34}{section.5.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5.7}Proof-of-Concept Simulation for the Reinforcement Learning Framework}{\reset@font\mtcSfont 35}{section.5.7}}

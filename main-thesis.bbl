@@ -89,4 +89,10 @@ Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama.
 \newblock ``Optuna: A Next-generation Hyperparameter Optimization Framework''.
 \newblock In {\em Proceedings of the 25rd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}, 2019.
 
+\bibitem{DOSREIS2021100081}
+Gonçalo {dos Reis}, Calum Strange, Mohit Yadav, and Shawn Li.
+\newblock ``Lithium-ion battery data and where to find it''.
+\newblock {\em Energy and AI}, 5:100081, 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.egyai.2021.100081})}.
+
 \end{thebibliography}

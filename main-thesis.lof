@@ -13,21 +13,20 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Problem Formulation}{7}{chapter.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conceptual Design of the RL Framework}{9}{chapter.4}%
+\contentsline {xchapter}{Electrified Motion: Driving Patterns, Energy Use, and Thermal Dynamics in EV Batteries}{9}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Data collection setup}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces State of Health and battery pack temperature from the collected period}}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The bidirectional linear interpolation of null and missing values}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The temperature sample in 10 minutes}}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The consecutive many-to-many window training input for Artificial Neural Network.}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Battery health degradation in the \textit {Nissan Leaf}. (a) SOH decline by distance on the extended dataset. (b) Shift in peak charging voltage.}}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Overview of power consumption and influencing factors}}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Battery temperature status on different driving styles}}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Power band of the \textit {Nissan Leaf} at different speed}}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Optuna framework structure for automatic search and network construction.}}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Training loss on the best model}}{28}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Electrified Motion: Driving Patterns, Energy Use, and Thermal Dynamics in EV Batteries}{11}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Data collection setup}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces State of Health and battery pack temperature from the collected period}}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The bidirectional linear interpolation of null and missing values}}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The temperature sample in 10 minutes}}{17}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The consecutive many-to-many window training input for Artificial Neural Network.}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Battery health degradation in the \textit {Nissan Leaf}. (a) SOH decline by distance on the extended dataset. (b) Shift in peak charging voltage.}}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Overview of power consumption and influencing factors}}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Battery temperature status on different driving styles}}{24}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Power band of the \textit {Nissan Leaf} at different speed}}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Optuna framework structure for automatic search and network construction.}}{27}{figure.caption.24}%
+\contentsline {xchapter}{Results and Discussion}{33}{chapter.5}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Results and Discussion}{31}{chapter.6}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Future Directions}{35}{chapter.7}%
+\contentsline {xchapter}{Conclusion and Future Directions}{37}{chapter.6}%
 \contentsfinish 

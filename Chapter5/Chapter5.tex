@@ -1,15 +1,9 @@
+% EV & BAT
 \newglossaryentry{EV}{name={EV}, description={Electric Vehicle}}
-\newglossaryentry{Bi-LSTM}{name={Bi-LSTM}, description={Bidirectional Long Short-Term Memory}}
 \newglossaryentry{OBD-II}{name={OBD-II}, description={On-Board Diagnostic II}}
 \newglossaryentry{SOC}{name={SOC}, description={State of Charge}}
 \newglossaryentry{BMS}{name={BMS}, description={Battery Management System}}
-\newglossaryentry{RL}{name={RL}, description={Reinforcement Learning}}
 \newglossaryentry{SOH}{name={SOH}, description={State of Health}}
-\newglossaryentry{MAE}{name={MAE}, description={Mean Absolute Error}}
-\newglossaryentry{CNN}{name={CNN}, description={Convolutional Neural Network}}
-\newglossaryentry{MLP}{name={MLP}, description={Multilayer Perceptron}}
-\newglossaryentry{MSE}{name={MSE}, description={Mean Squared Error}}
-\newglossaryentry{RMSE}{name={RMSE}, description={Root Mean Squared Error}}
 \newglossaryentry{NMC}{name={NMC}, description={lithium nickel manganese cobalt oxide (LiNiMnGoO\textsubscript{2})}}
 \newglossaryentry{IoT}{name={IoT}, description={Internet of Things}}
 \newglossaryentry{ECU}{name={ECU}, description={Electronic Control Unit}}
@@ -17,25 +11,31 @@
 \newglossaryentry{GPS}{name={GPS}, description={Global Positioning System}}
 \newglossaryentry{HV}{name={HV}, description={High Voltage}}
 \newglossaryentry{BEV}{name={BEV}, description={Battery Electric Vehicle}}
+
+
+% AI
+\newglossaryentry{SVR}{name={SVR}, description={Support Vector Regression}}
+\newglossaryentry{CNN}{name={CNN}, description={Convolutional Neural Network}}
+\newglossaryentry{MLP}{name={MLP}, description={Multilayer Perceptron}}
 \newglossaryentry{ML}{name={ML}, description={Machine Learning}}
 \newglossaryentry{ANN}{name={ANN}, description={Artificial Neural Network}}
 \newglossaryentry{LSTM}{name={LSTM}, description={Long Short-Term Memory}}
+\newglossaryentry{Bi-LSTM}{name={Bi-LSTM}, description={Bidirectional Long Short-Term Memory}}
 \newglossaryentry{AI}{name={AI}, description={Artificial Intelligence}}
 \newglossaryentry{FC}{name={FC}, description={Fully Connected}}
+\newglossaryentry{RL}{name={RL}, description={Reinforcement Learning}}
+\newglossaryentry{MSE}{name={MSE}, description={Mean Squared Error}}
+\newglossaryentry{RMSE}{name={RMSE}, description={Root Mean Squared Error}}
+\newglossaryentry{MAE}{name={MAE}, description={Mean Absolute Error}}
 
 \chapter{Electrified Motion: Driving Patterns, Energy Use, and Thermal Dynamics in EV Batteries}\label{ch:5}
 \minitoc
 
-Schedules and Milestones
+Understanding the impact of driving behavior on battery thermal dynamics is essential for enhancing \gls{EV} performance and longevity. 
+This chapter investigates the influence of driving patterns on battery temperature and power consumption using a comprehensive dataset from a \textit{Nissan Leaf} 2018 Acenta. 
+A \gls{Bi-LSTM} model predicts battery temperature, offering valuable insights for optimizing thermal management and preserving battery health.
 
 \newpage
-
-\section{Introduction}\label{sec:ev_battery_intro}
-
-Understanding the relationship between driving behavior and battery thermal dynamics is critical for improving the performance and longevity of \glspl{EV}. 
-Thermal conditions directly impact battery efficiency, safety, and long-term degradation. 
-This case study explores how different driving behaviors influence battery temperature using a large-scale dataset collected from a \textit{Nissan Leaf} 2018 Acenta, a pure \gls{EV}. 
-A \gls{Bi-LSTM} model is employed to predict battery temperature, providing insights into thermal management strategies and their potential role in preserving battery health.
 
 \section{Battery Structure and Internet of Things Device}
 \label{sec:thermal_dynamics_case_study_intro}
@@ -79,20 +79,33 @@ The \gls{SOH} unexpectedly shows a loss of about 1.5\% from July to September an
 However, the odometer grows linearly. 
 Several factors, including charging (slow, regular, and quick charge), temperature, acceleration, and driving conditions can possibly cause the drop of the battery health. 
 
-\begin{figure} [htbp]
-	\centering
+\begin{figure}[htbp]
+    \centering
 	\begin{subfigure}{0.47\linewidth}
         \includegraphics[width=\textwidth]{Chapter5/figures/ch5_SOH_Odometer_colored.png} 
         \caption{State of Health and driving distance of the dataset}
         \label{fig:soh_odometer}
 	\end{subfigure}
-	\quad
+    \quad
     \begin{subfigure}{0.43\linewidth}
         \includegraphics[width=0.9\textwidth]{Chapter5/figures/BAT_SEASONAL_PACK_MEAN.png}
         \caption{Temperature of all packs. The green area corresponds to the optimal range. Leaf 40kWh lacks pack \#3.}
         \label{fig:avg_pack_temp}
 	\end{subfigure}
+    \\
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width=\linewidth]{Chapter5/figures/thermal_A4-cropped_cropTemp.pdf}
+        \caption{Seasonal battery temperature}
+        \label{fig:seasonal_temp}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width=\linewidth]{Chapter5/figures/thermal_A4-cropped_cropGPS.pdf}
+        \caption{Battery pack temperature in location}
+        \label{fig:pack_location_temp}
+    \end{subfigure}
     \caption{State of Health and battery pack temperature from the collected period}
+    \label{fig:expanded_setup}
 \end{figure}
 
 Four individual temperature sensors are on the Leaf's pack. 
@@ -102,6 +115,13 @@ This is the overall status that includes the driving, charging, and idling phase
 Depending on the pack's location, the data shows that the temperature difference is 2°C to 5°C on a monthly average. 
 Most of the time, the battery pack can stay at the optimal temperature range (under 35°C and higher than 15°C).
 
+The seasonal variation in Italy reveals that battery temperatures are typically higher in summer due to increased ambient heat, 
+while winter temperatures are significantly cooler, reflecting the expected climate patterns of hot summers and cold winters, as shown in Figure~\ref{fig:seasonal_temp}.
+Battery temperature also fluctuates based on location: 
+in traffic or low-speed areas, reduced airflow and sustained loads cause overheating, 
+while on highways, elevated temperatures result from the high current output required for acceleration and maintaining speed, as shown in Figure~\ref{fig:pack_location_temp}.
+Additionally, as shown in Figure~\ref{fig:pack_location_temp}, 
+the battery remains hot after transitioning from highways or high-speed areas to low-speed areas, as it requires time to cool down due to residual thermal inertia.
 
 
 \section{Data Preprocessing and Feature Engineering}
@@ -564,7 +584,7 @@ Also, reduce the frequent braking. The higher the speed, the less the braking;
 
 Illustrating from the data, battery life could be enhanced by evaluating the actual temperature on the pack and making the corresponding improvements at driving style to slow down the degradation. 
 Aggressive driving manners could speed up battery degradation due to the temperature variation, which usually results from rough handling or improper pedal use. 
-Also, the seasonal temperature is the main influencing factor on the battery pack's temperature when driving \glspl{EV}.
+Also, the seasonal temperature shown in Figure~\ref{fig:seasonal_temp} is the main influencing factor on the battery pack's temperature when driving \glspl{EV}.
 
 \section{Bidirectional Long Short-Term Memory Model for Temperature Prediction}
 To predict battery pack temperature under varying conditions, a \gls{Bi-LSTM} model was developed. The architecture and training process are described below:
@@ -670,9 +690,9 @@ The following Table~\ref{tab:bestmodel} shows the settings of our best model.
 
 \begin{table}[hbt]
     \centering
-    \caption{Optimization and Model Settings}
+    \caption{Hyperparameter Searching and Best Model Settings}
     \label{tab:combined_tables}
-    \begin{minipage}[t][6cm][t]{0.45\textwidth} % Fixed height and width
+    \begin{minipage}[t][6cm][t]{\textwidth} % Make Table A bigger
         \centering
         \subcaption{The Optuna Automatic Search Settings}
         \label{tab:optuna_settings}
@@ -689,7 +709,7 @@ The following Table~\ref{tab:bestmodel} shows the settings of our best model.
         \end{tabular}
     \end{minipage}
     \hfill
-    \begin{minipage}[t][6cm][t]{0.45\textwidth} % Fixed height and width
+    \begin{minipage}[t][6cm][t]{\textwidth} % Make Table B smaller
         \centering
         \subcaption{The Best Model - Bidirectional LSTM}
         \label{tab:bestmodel}
@@ -708,54 +728,193 @@ The following Table~\ref{tab:bestmodel} shows the settings of our best model.
     \end{minipage}
 \end{table}
 
-\section{Results}
-The \gls{Bi-LSTM} model demonstrated robust performance in capturing the effects of driving behavior on battery temperature:
 
-\subsubsection{Prediction Accuracy}
-The model effectively predicted:
-\begin{itemize}
-    \item Temperature surges caused by aggressive driving.
-    \item Low-temperature conditions during winter driving.
-\end{itemize}
+\section{Results}\label{sec:result}
 
-\subsection{Behavioral Analysis}
+In this section, the results and implications of our best model are presented. 
+The different datasets and models are compared to identify the most important factors for temperature prediction. 
+The ablation study on the features was also included to verify the importance of feature engineering. 
+The limitations and considerations of our work are also discussed. 
+Finally, the consequences of the capacity loss caused by temperature are explained. 
 
-Aggressive driving exhibited occasional overestimations due to rapid transitions, while gentle and cautious driving resulted in stable predictions.
+\subsection{Justification of the best model}
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=\textwidth]{figures/prediction_vs_actual.png} % Replace with the path to Figure 12
-%     \caption{Prediction vs. actual temperature for different driving styles.}
-%     \label{fig:prediction_vs_actual}
-% \end{figure}
+The MAE on the prediction of the average temperature of the battery pack is the performance indicator for all models. 
+Table~\ref{tab:top_models_settings} shows the different model comparisons using the test data (10\%) and a 10-fold cross-validation. 
+Two output variables are tested that are associated with the constant input of 10 window steps: 
+(i) the output of 10 temperature predictions (10 minutes) which is our main goal; 
+(ii) the output of a single temperature prediction in the last minutes of the 10 minutes as a reference. 
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=\textwidth]{figures/error_distribution.png} % Replace with the path to Figure 13
-%     \caption{Error distribution across seasons and driving behaviors.}
-%     \label{fig:error_distribution}
-% \end{figure}
+\begin{table}[hbt]
+    \centering
+    \caption{The MAE benchmarking [°C]}
+    \label{tab:top_models_settings}
+    \begin{tabular}{lcccc}
+    \toprule
+        Models & 10 Predictions & 10-Fold-10 & 1 Prediction & 10-Fold-1 \\ 
+        \midrule
+        \gls{CNN} & 7.69 & 7.36 & - & - \\ 
+        \gls{MLP} & 7.69 & 7.35 & 7.9 & 7.33 \\ 
+        Linear & 13.2 & 12.16 & 14.74 & 13.29 \\ 
+        \gls{LSTM} & 3.16 & 2.12 & 4.14 & 3.21 \\
+        \gls{Bi-LSTM} & 2.92 & 1.7 & 2.83 & 2.06 \\ 
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+The \gls{Bi-LSTM} model showed the smallest error of 2.92°C in the test data and a mean error of 1.7°C in the cross-validation of the 10 predictions output. 
+When these two errors are averaged, an error of 2.31°C is the best performance we found for this model. 
+The multi-window linear model showed the worst performance among the models. 
+There is almost no difference in the prediction errors between the \gls{CNN} and \gls{MLP} models. For reference, the model with one output shows similar performance. 
+The \gls{CNN} model is not available for single output due to the restriction to a minimum dimension. 
+
+\begin{figure}[hbt]%[!ht]
+\begin {center}
+\includegraphics[width=0.8\textwidth]{Chapter5/figures/lstm_loss_nodriver_temp.png}
+\caption{Training loss on the best model}
+\label{fig:lstm_loss}
+\end {center}
+\end{figure}
+
+The training and validation loss is shown in Fig.~\ref{fig:lstm_loss}. 
+The training of the model converges smoothly in the first 300 epochs with a time cost of about 2,400 seconds. 
+The validation loss of the model gradually decreases and overlaps with the training loss at epoch 250.
+
+\subsection{Ablation study}
+
+The ablation study focuses on the features, as Optuna had sought the optimal structure for the model, which is a standard model without adjustments. 
+Table~\ref{tab:ablation} shows the result of removing accumulated variables, time signals, both accumulated variables and time signals, and trip labels.
+
+\begin{table}[hbt]
+    \centering
+    \caption{The \gls{MAE} on features ablation}
+    \label{tab:ablation}
+    \begin{tabular}{lcc}
+    \toprule
+        Remove & \gls{MAE} [°C] & 10-Fold-10 [°C]\\ 
+        \midrule
+        Accumulated features & 7.69 & 7.36 \\ 
+        Time & 3.87 & 3.87 \\ 
+        Accumulated features and Time & 7.69 & 7.36 \\
+        Trip label & 3.5 & 3.29 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+We have found that the accumulated characteristics are of significant importance. 
+When removed, the \gls{MAE} increases to 7.69°C. This shows that the Bi-LSTM model is partially based on the linear signal.
+When the time signal is removed, the \gls{MAE} of the model increases by about 1°C. 
+Based on the model results, temporal variations (e.g., seasonal factors or road conditions) also affect the temperature of the battery pack. 
+Finally, the temperature increases by about 0.6°C when a trip number is removed. 
+In addition, we recorded an \gls{MAE} increase to 4.41°C and a 10-fold validation of 2.17°C when adding the driver ID as a feature.
+
+\subsection{Dataset comparison}
+
+To our knowledge, this is the only dataset collected without simulation or modeling on a real \textit{Nissan Leaf's} \gls{ECU}. 
+Instead of comparing the model to the existing dataset, we compare it to the new dataset assembled from our data. 
+It is because the above feature ablation study shows the importance of features. 
+Also, it may not be comprehensive enough to compare performance with the different battery types, cells, and laboratory-tested datasets~\cite{DOSREIS2021100081}. 
+This resampled dataset follows China's mandatory electric vehicle data collection protocol \href{https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=674DE45C0AD3DE2CD75B9C4CD8ED57C1}{GB/T 32960.3} and our feature engineering steps. 
+The difference between the GB/T 32960 dataset and ours is the sampling rate of 30 seconds.
+
+\begin{table}[hbt]
+    \centering
+    \caption{The \gls{MAE} difference on the Chinese standard}
+    \label{tab:gbt32960}
+    \begin{tabular}{lcc}
+    \toprule
+        Dataset & \gls{MAE} [°C] & 10-Fold-10 [°C] \\ 
+        \midrule
+        30s resampled & 3.57 & 1.76 \\ 
+        Ours & 2.92 & 1.7 \\ 
+        \midrule
+        Difference & 0.65 & 0.06 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:gbt32960} shows a very small loss of precision in both \gls{MAE} and 10-fold validation when predicting 10 outputs. 
+Compared to our 250ms fine-time granularity, the Bi-LSTM model still performs effectively at the 30s interval for temperature prediction on the battery pack.
+
+\subsection{Statistical learning comparison}
+
+To understand the performance of our data, statistical learning models are compared. 
+Four one-to-one models, including \gls{SVR} with Gaussian kernel, linear, Ada Boost Regressor and Decision Tree Regressor, are implemented to test the prediction errors. 
+The ratio of training and testing is set to 0.67 and 0.33, respectively. 
+Table~\ref{tab:stat_learning} shows that the linear model achieves the minimum MAE error of 0.41°C. 
+However, this result cannot be directly compared with our model because it cannot detect the input in the next $\mathit{x}$ minutes.
+
+\begin{table}[hbt]
+    \centering
+    \caption{The \gls{MAE} of the statistical learning approach}
+    \label{tab:stat_learning}
+    \begin{center}
+    \begin{tabular}{ll}
+    \toprule
+        Models & \gls{MAE} [°C] \\
+        \midrule
+        \gls{SVR}-Gaussian & 6.0258 \\ 
+        Linear & 0.4058 \\ 
+        Ada Boost Regressor & 0.612 \\ 
+        Decision Tree Regressor & 0.8109 \\ 
+    \bottomrule
+    \end{tabular}
+    \end{center}
+\end{table}
 
 \section{Discussion}
-\textbf{Key Insights:}
+
+This study has provided a comprehensive examination of the interactions between driving behaviors, environmental conditions, and the thermal dynamics of \gls{EV} batteries. 
+By utilizing a robust dataset and employing advanced \gls{ML} techniques, particularly the Bidirectional Long Short-Term Memory (\gls{Bi-LSTM}) model, this work has elucidated key factors impacting battery performance and degradation. 
+The findings have significant implications for optimizing \gls{EV} battery management and extending operational lifespan.
+
 \begin{itemize}
-    \item Aggressive driving imposes significant thermal stress on the battery, increasing the risk of accelerated degradation.
-    \item Gentle driving minimizes temperature fluctuations, preserving thermal stability and potentially extending battery lifespan.
+
+\item \textbf{Driving Behavior and Thermal Dynamics:}
+The results demonstrate that driving behaviors significantly influence battery thermal conditions and State of Health (\gls{SOH}). 
+Aggressive driving styles, such as frequent accelerations and sharp braking, were found to induce temperature surges exceeding 41°C, leading to thermal stress and accelerated \gls{SOH} degradation. 
+Conversely, gentle driving styles maintained battery temperatures within the optimal range (15°C–35°C), mitigating thermal stress and preserving battery longevity.
+
+\item \textbf{Environmental Impact:}
+Seasonal and ambient temperature variations played a critical role in battery performance. 
+Prolonged exposure to cold conditions (<15°C) during winter led to reduced energy efficiency and potential risks to long-term performance. 
+High ambient temperatures in summer exacerbated thermal stress, particularly in aggressive driving scenarios, underscoring the importance of adaptive thermal management.
+
+\item \textbf{Battery Degradation Metrics:}
+The study highlighted the limitations of manufacturer-reported \gls{SOH} metrics due to opaque methodologies. 
+An alternative approach using charging duration as a degradation metric was proposed, revealing strong correlations between charging profiles and \gls{SOH}. 
+This framework provides a practical method for monitoring battery health over time.
+
+\item \textbf{Energy Efficiency and Driving Optimization:}
+The investigation into power consumption uncovered significant inter-driver variability. 
+Factors such as ePedal usage, \gls{ECO} mode activation, and regenerative braking exhibited varied effectiveness across drivers, suggesting the potential for personalized recommendations to optimize energy efficiency and driving performance.
+
+\item \textbf{Model Performance and Predictive Accuracy:}
+The \gls{Bi-LSTM} model achieved superior predictive accuracy with a mean absolute error (\gls{MAE}) of 2.92°C, outperforming other models. 
+Feature engineering, including the incorporation of temporal signals and accumulated variables, proved crucial for improving prediction accuracy, demonstrating the efficacy of the model in handling complex real-world datasets.
+
+\item \textbf{Practical Applications and Future Research:}
+    \begin{itemize}
+        \item \textbf{Predictive Maintenance:} Insights from this study can facilitate the development of predictive maintenance strategies, ensuring timely interventions to reduce battery degradation. 
+        This approach is especially relevant for fleet management and high-utilization \gls{EV} scenarios.
+        \item \textbf{Driver Behavior Optimization:} The findings highlight the importance of educating drivers on energy-efficient driving behaviors, such as smooth acceleration and minimizing braking, to enhance battery performance and longevity.
+        \item \textbf{Advancements in Battery Management Systems:} Integrating data-driven insights into \glspl{BMS} can enable real-time adaptation to varying driving and environmental conditions, improving system reliability and safety.
+        \item \textbf{Policy Implications:} Policymakers can use these findings to establish transparent standards for \gls{SOH} reporting and battery thermal management, benefiting both consumers and manufacturers.
+    \end{itemize}
+
+\item \textbf{Limitations and Research Recommendations:}
+    \begin{itemize}
+        \item The findings are primarily based on a specific \gls{EV} model (\textit{Nissan Leaf}) and may not generalize across different models or battery chemistries. 
+        Expanding the analysis to other \gls{EV} platforms is recommended.
+        \item Real-world data introduces variability that may obscure controlled experimental effects. Incorporating laboratory-controlled data could further validate the findings.
+        \item The study's temporal scope limits the understanding of long-term battery degradation. 
+        Extended longitudinal studies are necessary to explore the cumulative effects of usage on battery health.
+    \end{itemize}
+
 \end{itemize}
 
-\textbf{Implications for \gls{BMS}:}
-\begin{itemize}
-    \item The Bi-LSTM model can enable real-time thermal management by predicting temperature trends and issuing proactive alerts for high-risk behaviors.
-    \item Integrating temperature predictions into \gls{BMS} could optimize battery health by dynamically adjusting operating conditions.
-\end{itemize}
-
-\textbf{Limitations and Future Work:}
-\begin{itemize}
-    \item The model's accuracy depends on high-quality data, and edge cases with rapid behavioral shifts remain challenging.
-    \item Future research should explore how thermal predictions can directly influence \gls{SOH} management strategies.
-\end{itemize}
-
-
-
+In conclusion, this study advances the understanding of the complex interactions between driving behaviors, environmental conditions, and battery thermal dynamics in \glspl{EV}. 
+By leveraging advanced machine learning models and robust feature engineering, the proposed framework offers actionable insights into battery management and predictive maintenance. 
+Addressing the identified limitations in future studies will contribute to the development of more efficient and sustainable electric vehicle technologies.
 
 \endinput
