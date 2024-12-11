@@ -3,44 +3,59 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main-thesis.aux
 The style file: mpUnsrt.bst
 Database file #1: Bibliography.bib
-You've used 17 entries,
+Warning--entry type for "dosreisG2021" isn't style-file defined
+--line 1563 of file Bibliography.bib
+Warning--entry type for "6jr9-5235-20" isn't style-file defined
+--line 1577 of file Bibliography.bib
+Warning--I didn't find a database entry for "Carmona2016"
+Warning--I didn't find a database entry for "Shahverdy2020"
+Warning--empty booktitle in Liu2022
+Warning--empty booktitle in Manzoni2010
+Warning--empty booktitle in Amsalu2015
+Warning--empty booktitle in Yang2021
+Warning--empty booktitle in Bouslimi2005
+Warning--empty booktitle in Wu2018
+Warning--empty booktitle in Fernandez2016
+Warning--empty journal in Selvaraju2016
+You've used 85 entries,
             2062 wiz_defined-function locations,
-            618 strings with 8384 characters,
-and the built_in function-call counts, 5398 in all, are:
-= -- 418
-> -- 374
-< -- 5
-+ -- 109
-- -- 84
-* -- 398
-:= -- 926
-add.period$ -- 64
-call.type$ -- 17
+            1068 strings with 25297 characters,
+and the built_in function-call counts, 26449 in all, are:
+= -- 2091
+> -- 1784
+< -- 20
++ -- 524
+- -- 399
+* -- 2054
+:= -- 4487
+add.period$ -- 311
+call.type$ -- 85
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 244
-empty$ -- 447
-format.name$ -- 83
-if$ -- 1203
+cite$ -- 93
+duplicate$ -- 1136
+empty$ -- 2193
+format.name$ -- 394
+if$ -- 5854
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 98
-num.names$ -- 19
-pop$ -- 69
+int.to.str$ -- 85
+missing$ -- 80
+newline$ -- 471
+num.names$ -- 85
+pop$ -- 293
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 107
+skip$ -- 486
 stack$ -- 0
-substring$ -- 248
-swap$ -- 71
-text.length$ -- 14
+substring$ -- 1474
+swap$ -- 294
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 120
-width$ -- 19
-write$ -- 210
+warning$ -- 8
+while$ -- 574
+width$ -- 87
+write$ -- 1021
+(There were 12 warnings)

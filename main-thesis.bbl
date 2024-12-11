@@ -53,46 +53,419 @@ Davide Aguiari, Ka~Seng Chou, Rita Tse, and Giovanni Pau.
 \newblock In {\em 2022 IEEE 19th Annual Consumer Communications \& Networking Conference (CCNC)}, pages 885--888. IEEE, 2022.
 \newblock {(\urlstyle{same}\url{https://doi.org/10.1109/CCNC49033.2022.9700713})}.
 
-\bibitem{calearo2019modeling}
-Lisa Calearo, Andreas Thingvad, and Mattia Marinelli.
-\newblock ``Modeling of battery electric vehicles for degradation studies''.
-\newblock In {\em 2019 54th International Universities Power Engineering Conference (UPEC)}, pages 1--6. IEEE, 2019.
+\bibitem{han2019review}
+Xuebing Han, Languang Lu, Yuejiu Zheng, Xuning Feng, Zhe Li, Jianqiu Li, and Minggao Ouyang.
+\newblock ``A review on the key issues of the lithium ion battery degradation among the whole life cycle''.
+\newblock {\em ETransportation}, 1:100005, 2019.
 
-\bibitem{kane_2020_see}
-Mark Kane.
-\newblock ``See A 2011 Nissan LEAF Battery Dissected Professionally: Video'', 01 2020.
-\newblock {(\urlstyle{same}\url{https://insideevs.com/news/390574/2011-nissan-leaf-battery-dissected-professionally/})}.
+\bibitem{Lu2013}
+Languang Lu, Xuebing Han, Jianqiu Li, Jianfeng Hua, and Minggao Ouyang.
+\newblock ``A review on the key issues for lithium-ion battery management in electric vehicles''.
+\newblock {\em Journal of Power Sources}, 226:272--288, 3 2013.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2012.10.060})}.
 
-\bibitem{xu2021estimation}
-Zhicheng Xu, Jun Wang, Peter~D Lund, and Yaoming Zhang.
-\newblock ``Estimation and prediction of state of health of electric vehicle batteries using discrete incremental capacity analysis based on real driving data''.
-\newblock {\em Energy}, 225:120160, 2021.
+\bibitem{xu2018progress}
+Lipeng Xu, Fei Zhou, Bing Liu, Haobing Zhou, Qichang Zhang, Jizhou Kong, and Qianzhi Wang.
+\newblock ``Progress in preparation and modification of LiNi0. 6Mn0. 2Co0. 2O2 cathode material for high energy density Li-ion batteries''.
+\newblock {\em International Journal of Electrochemistry}, 2018, 2018.
+
+\bibitem{zhang2018state}
+Ruifeng Zhang, Bizhong Xia, Baohua Li, Libo Cao, Yongzhi Lai, Weiwei Zheng, Huawen Wang, and Wei Wang.
+\newblock ``State of the art of lithium-ion battery SOC estimation for electrical vehicles''.
+\newblock {\em Energies}, 11(7):1820, 2018.
+
+\bibitem{Zhao2017}
+Yan Zhao, Yatish Patel, Ian~A. Hunt, Kristina~M. Kareh, Alexander~A. Holland, Christian Korte, John~P. Dear, Yan Yue, and Gregory~J. Offer.
+\newblock ``Preventing lithium ion battery failure during high temperatures by externally applied compression''.
+\newblock {\em Journal of Energy Storage}, 13:296--303, 10 2017.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.est.2017.08.001})}.
+
+\bibitem{an2016state}
+Seong~Jin An, Jianlin Li, Claus Daniel, Debasish Mohanty, Shrikant Nagpure, and David~L Wood~III.
+\newblock ``The state of understanding of the lithium-ion-battery graphite solid electrolyte interphase (SEI) and its relationship to formation cycling''.
+\newblock {\em Carbon}, 105:52--76, 2016.
+
+\bibitem{balakrishnan2006safety}
+PG~Balakrishnan, R~Ramesh, and T~Prem Kumar.
+\newblock ``Safety mechanisms in lithium-ion batteries''.
+\newblock {\em Journal of power sources}, 155(2):401--414, 2006.
+
+\bibitem{guo2021lithium}
+Jia Guo, Yaqi Li, Kjeld Pedersen, and Daniel-Ioan Stroe.
+\newblock ``Lithium-Ion Battery Operation, Degradation, and Aging Mechanism in Electric Vehicles: An Overview''.
+\newblock {\em Energies}, 14(17):5220, 2021.
+
+\bibitem{ma13081884}
+Mogalahalli~V. Reddy, Alain Mauger, Christian~M. Julien, Andrea Paolella, and Karim Zaghib.
+\newblock ``Brief History of Early Lithium-Battery Development''.
+\newblock {\em Materials}, 13(8), 2020.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.3390/ma13081884})}.
+
+\bibitem{jie2020advanced}
+Yulin Jie, Xiaodi Ren, Ruiguo Cao, Wenbin Cai, and Shuhong Jiao.
+\newblock ``Advanced liquid electrolytes for rechargeable Li metal batteries''.
+\newblock {\em Advanced Functional Materials}, 30(25):1910777, 2020.
+
+\bibitem{VETTER2005269}
+J.~Vetter, P.~Novák, M.R. Wagner, C.~Veit, K.-C. Möller, J.O. Besenhard, M.~Winter, M.~Wohlfahrt-Mehrens, C.~Vogler, and A.~Hammouche.
+\newblock ``Ageing mechanisms in lithium-ion batteries''.
+\newblock {\em Journal of Power Sources}, 147(1):269--281, 2005.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2005.01.006})}.
+
+\bibitem{yan2017intragranular}
+Pengfei Yan, Jianming Zheng, Meng Gu, Jie Xiao, Ji-Guang Zhang, and Chong-Min Wang.
+\newblock ``Intragranular cracking as a critical barrier for high-voltage usage of layer-structured cathode for lithium-ion batteries''.
+\newblock {\em Nature communications}, 8(1):1--9, 2017.
+
+\bibitem{yang2022high}
+Ruijie Yang, Liang Mei, Qingyong Zhang, Yingying Fan, Hyeon~Suk Shin, Damien Voiry, and Zhiyuan Zeng.
+\newblock ``High-yield production of mono-or few-layer transition metal dichalcogenide nanosheets by an electrochemical lithium ion intercalation-based exfoliation method''.
+\newblock {\em Nature protocols}, 17(2):358--377, 2022.
+
+\bibitem{zhao2020rechargeable}
+Chen-Zi Zhao, Qing Zhao, Xiaotun Liu, Jingxu Zheng, Sanjuna Stalin, Qiang Zhang, and Lynden~A Archer.
+\newblock ``Rechargeable lithium metal batteries with an in-built solid-state polymer electrolyte and a high voltage/loading Ni-rich layered cathode''.
+\newblock {\em Advanced Materials}, 32(12):1905629, 2020.
+
+\bibitem{YANG2006573}
+Hui Yang, Guorong~V. Zhuang, and Philip~N. Ross.
+\newblock ``Thermal stability of LiPF6 salt and Li-ion battery electrolytes containing LiPF6''.
+\newblock {\em Journal of Power Sources}, 161(1):573--579, 2006.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2006.03.058})}.
+
+\bibitem{Ramkumar2022}
+M.~Siva Ramkumar, C.~Subba~Rami Reddy, Agenya Ramakrishnan, K.~Raja, S.~Pushpa, S.~Jose, and Mani Jayakumar.
+\newblock ``Review on Li-Ion Battery with Battery Management System in Electrical Vehicle''.
+\newblock {\em Advances in Materials Science and Engineering}, 2022, 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1155/2022/3379574})}.
+
+\bibitem{Liu2022}
+Yanshuo Liu, Kun Jiang, Jianrui Sun, Kun Zhao, Jiyong Dai, and Kai Wang.
+\newblock ``Overview of electric vehicle battery management system algorithms''.
+\newblock page 109. SPIE-Intl Soc Optical Eng, 4 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1117/12.2635069})}.
+
+\bibitem{EDDAHECH20122438}
+A.~Eddahech, O.~Briat, E.~Woirgard, and J.M. Vinassa.
+\newblock ``Remaining useful life prediction of lithium batteries in calendar ageing for automotive applications''.
+\newblock {\em Microelectronics Reliability}, 52(9):2438--2442, 2012.
+\newblock SPECIAL ISSUE 23rd EUROPEAN SYMPOSIUM ON THE RELIABILITY OF ELECTRON DEVICES, FAILURE PHYSICS AND ANALYSIS, {(\urlstyle{same}\url{https://doi.org/10.1016/j.microrel.2012.06.085})}.
+
+\bibitem{7045522}
+Maciej Swierczynski, Daniel-Ioan Stroe, Ana-Irina Stan, Remus Teodorescu, and Søren~Knudsen Kær.
+\newblock ``Lifetime Estimation of the Nanophosphate $\hbox{LiFePO}_{4}\hbox{/C}$ Battery Chemistry Used in Fully Electric Vehicles''.
+\newblock {\em IEEE Transactions on Industry Applications}, 51(4):3453--3461, 2015.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/TIA.2015.2405500})}.
+
+\bibitem{8911243}
+Daniel-Ioan Stroe and Erik Schaltz.
+\newblock ``Lithium-Ion Battery State-of-Health Estimation Using the Incremental Capacity Analysis Technique''.
+\newblock {\em IEEE Transactions on Industry Applications}, 56(1):678--685, 2020.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/TIA.2019.2955396})}.
+
+\bibitem{BANK2020228566}
+Thomas Bank, Jan Feldmann, Sebastian Klamor, Stephan Bihn, and Dirk~Uwe Sauer.
+\newblock ``Extensive aging analysis of high-power lithium titanate oxide batteries: Impact of the passive electrode effect''.
+\newblock {\em Journal of Power Sources}, 473:228566, 2020.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2020.228566})}.
+
+\bibitem{wang2016critical}
+Qian Wang, Bin Jiang, Bo~Li, and Yuying Yan.
+\newblock ``A critical review of thermal management models and solutions of lithium-ion batteries for the development of pure electric vehicles''.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 64:106--128, 2016.
+
+\bibitem{TALELE2021103482}
+Virendra Talele, Pranav Thorat, Yashodhan~Pramod Gokhale, and Mathew VK.
+\newblock ``Phase change material based passive battery thermal management system to predict delay effect''.
+\newblock {\em Journal of Energy Storage}, 44:103482, 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.est.2021.103482})}.
+
+\bibitem{wang2020study}
+Bing Wang, Changwei Ji, Shuofeng Wang, Jiejie Sun, Shuai Pan, Du~Wang, and Chen Liang.
+\newblock ``Study of non-uniform temperature and discharging distribution for lithium-ion battery modules in series and parallel connection''.
+\newblock {\em Applied Thermal Engineering}, 168:114831, 2020.
+
+\bibitem{chiu2014cycle}
+Kuan-Cheng Chiu, Chi-Hao Lin, Sheng-Fa Yeh, Yu-Han Lin, Chih-Sheng Huang, and Kuo-Ching Chen.
+\newblock ``Cycle life analysis of series connected lithium-ion batteries with temperature difference''.
+\newblock {\em Journal of Power Sources}, 263:75--84, 2014.
+
+\bibitem{donkers2020influence}
+Alex Donkers, Dujuan Yang, and Milo{\v{s}} Viktorovi{\'c}.
+\newblock ``Influence of driving style, infrastructure, weather and traffic on electric vehicle performance''.
+\newblock {\em Transportation research part D: transport and environment}, 88:102569, 2020.
+
+\bibitem{tremblay2009experimental}
+Olivier Tremblay and Louis-A Dessaint.
+\newblock ``Experimental validation of a battery dynamic model for EV applications''.
+\newblock {\em World electric vehicle journal}, 3(2):289--298, 2009.
+
+\bibitem{trippe2014charging}
+Annette~E Trippe, Raghavendra Arunachala, Tobias Massier, Andreas Jossen, and Thomas Hamacher.
+\newblock ``Charging optimization of battery electric vehicles including cycle battery aging''.
+\newblock In {\em IEEE PES Innovative Smart Grid Technologies, Europe}, pages 1--6. IEEE, 2014.
+
+\bibitem{keil2016calendar}
+Peter Keil, Simon~F Schuster, J{\"o}rn Wilhelm, Julian Travi, Andreas Hauser, Ralph~C Karl, and Andreas Jossen.
+\newblock ``Calendar aging of lithium-ion batteries''.
+\newblock {\em Journal of The Electrochemical Society}, 163(9):A1872, 2016.
+
+\bibitem{wang2018battery}
+Jiquan Wang, Igo Besselink, and Henk Nijmeijer.
+\newblock ``Battery electric vehicle energy consumption prediction for a trip based on route information''.
+\newblock {\em Proceedings of the Institution of Mechanical Engineers, Part D: Journal of Automobile Engineering}, 232(11):1528--1542, 2018.
+
+\bibitem{Alkinani2020}
+Monagi~H. Alkinani, Wazir~Zada Khan, and Quratulain Arshad.
+\newblock ``Detecting Human Driver Inattentive and Aggressive Driving Behavior Using Deep Learning: Recent Advances, Requirements and Open Challenges''.
+\newblock {\em IEEE Access}, 8:105008--105030, 2020.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ACCESS.2020.2999829})}.
+
+\bibitem{Manzoni2010}
+Vincenzo Manzoni, Andrea Corti, Pietro~De Luca, and Sergio~M. Savaresi.
+\newblock ``Driving style estimation via inertial measurements''.
+\newblock pages 777--782, 2010.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ITSC.2010.5625113})}.
+
+\bibitem{Wang2022}
+Hanqing Wang, Xiaoyuan Wang, Junyan Han, Hui Xiang, Hao Li, Yang Zhang, and Shangqing Li.
+\newblock ``A Recognition Method of Aggressive Driving Behavior Based on Ensemble Learning''.
+\newblock {\em Sensors}, 22, 1 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.3390/s22020644})}.
+
+\bibitem{autodrive2021}
+Hédi Ben-Younes, Éloi Zablocki, Patrick Pérez, and Matthieu Cord.
+\newblock ``Driving behavior explanation with multi-level fusion''.
+\newblock {\em Pattern Recognition}, 123, 3 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.patcog.2021.108421})}.
+
+\bibitem{Monselise2022}
+Michal Monselise and Christopher~C. Yang.
+\newblock ``Detecting aggressive driving patterns in drivers using vehicle sensor data''.
+\newblock {\em Transportation Research Interdisciplinary Perspectives}, 14, 6 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.trip.2022.100625})}.
+
+\bibitem{Zhy2022}
+Yuanfang Zhu, Meilan Jiang, and Toshiyuki Yamamoto.
+\newblock ``Analysis on the driving behavior of old drivers by driving recorder GPS trajectory data''.
+\newblock {\em Asian Transport Studies}, 8, 1 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.eastsj.2022.100063})}.
+
+\bibitem{WangJ2022}
+Junhua Wang, Wenxiang Xu, Ting Fu, Hongren Gong, Qiangqiang Shangguan, and Anae Sobhani.
+\newblock ``Modeling aggressive driving behavior based on graph construction''.
+\newblock {\em Transportation Research Part C: Emerging Technologies}, 138, 5 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.trc.2022.103654})}.
+
+\bibitem{Zhu2022}
+Shengxue Zhu, Chongyi Li, Kexin Fang, Yichuan Peng, Yuming Jiang, and Yajie Zou.
+\newblock ``An Optimized Algorithm for Dangerous Driving Behavior Identification Based on Unbalanced Data''.
+\newblock {\em Electronics (Switzerland)}, 11, 5 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.3390/electronics11101557})}.
+
+\bibitem{deng2021review}
+Qi~Deng and Dirk S{\"o}ffker.
+\newblock ``A Review of the current HMM-based Approaches of Driving Behaviors Recognition and Prediction''.
+\newblock {\em IEEE Transactions on Intelligent Vehicles}, 2021.
+
+\bibitem{tran2015hidden}
+Duy Tran, Weihua Sheng, Li~Liu, and Meiqin Liu.
+\newblock ``A Hidden Markov Model based driver intention prediction system''.
+\newblock In {\em 2015 IEEE International Conference on Cyber Technology in Automation, Control, and Intelligent Systems (CYBER)}, pages 115--120. IEEE, 2015.
+
+\bibitem{fine1998hierarchical}
+Shai Fine, Yoram Singer, and Naftali Tishby.
+\newblock ``The hierarchical hidden Markov model: Analysis and applications''.
+\newblock {\em Machine learning}, 32(1):41--62, 1998.
+
+\bibitem{he2012driving}
+Lei He, Chang-fu Zong, and Chang Wang.
+\newblock ``Driving intention recognition and behaviour prediction based on a double-layer hidden Markov model''.
+\newblock {\em Journal of Zhejiang University SCIENCE C}, 13(3):208--217, 2012.
+
+\bibitem{zhu2016driving}
+Tianjun Zhu, Amir Khajepour, Changfu Zong, Li~Mai, and Hongchao Deng.
+\newblock ``Driving condition identification based on HHMM model--Application to the simulation of heavy duty vehicle''.
+\newblock In {\em The Dynamics of Vehicles on Roads and Tracks}, pages 670--675. CRC Press, 2016.
+
+\bibitem{abe2007study}
+Konomu Abe, Hideki Miyatake, and Koji Oguri.
+\newblock ``A study on switching AR-HMM driving behavior model depending on driver's states''.
+\newblock In {\em 2007 IEEE Intelligent Transportation Systems Conference}, pages 806--811. IEEE, 2007.
+
+\bibitem{Miyajima2007}
+Chiyomi Miyajima, Yoshihiro Nishiwaki, Koji Ozawa, Toshihiro Wakita, Katsunobu Itou, Kazuya Takeda, and Fumitada Itakura.
+\newblock ``Driver modeling based on driving behavior and its evaluation in driver identification''.
+\newblock {\em Proceedings of the IEEE}, 95:427--437, 2007.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/JPROC.2006.888405})}.
+
+\bibitem{Mardi2021}
+Rekyan Regasari~Mardi Putri, Ching~Han Yang, Chin~Chun Chang, and Deron Liang.
+\newblock ``Smartwatch-Based Open-Set Driver Identification by Using GMM-Based Behavior Modeling Approach''.
+\newblock {\em IEEE Sensors Journal}, 21:4918--4926, 2 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/JSEN.2020.3030810})}.
+
+\bibitem{Song2021}
+Xiaolin Song, Yangang Yin, Haotian Cao, Song Zhao, Mingjun Li, and Binlin Yi.
+\newblock ``The mediating effect of driver characteristics on risky driving behaviors moderated by gender, and the classification model of driver's driving risk''.
+\newblock {\em Accident Analysis and Prevention}, 153, 4 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.aap.2021.106038})}.
+
+\bibitem{Li2017}
+Zhenlong Li, Qingzhou Zhang, and Xiaohua Zhao.
+\newblock ``Performance analysis of K-nearest neighbor, support vector machine, and artificial neural network classifiers for driver drowsiness detection with different road geometries''.
+\newblock {\em International Journal of Distributed Sensor Networks}, 13, 9 2017.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1177/1550147717733391})}.
+
+\bibitem{Wang2020}
+Hui Wang, Menglu Gu, Shengbo Wu, and Chang Wang.
+\newblock ``A driver’s car-following behavior prediction model based on multi-sensors data''.
+\newblock {\em Eurasip Journal on Wireless Communications and Networking}, 2020, 12 2020.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1186/s13638-020-1639-2})}.
+
+\bibitem{Amsalu2015}
+Seifemichael~B. Amsalu, Abdollah Homaifar, Fatemeh Afghah, Saina Ramyar, and Arda Kurt.
+\newblock ``Driver behavior modeling near intersections using support vector machines based on statistical feature extraction''.
+\newblock volume 2015-August, pages 1270--1275. Institute of Electrical and Electronics Engineers Inc., 8 2015.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/IVS.2015.7225857})}.
+
+\bibitem{Yang2021}
+Kui Yang, Christelle~Al Haddad, George Yannis, and Constantinos Antoniou.
+\newblock ``Driving behavior safety levels: Classification and evaluation''.
+\newblock Institute of Electrical and Electronics Engineers Inc., 6 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/MT-ITS49943.2021.9529309})}.
+
+\bibitem{Wang2017}
+Wenshuo Wang, Junqiang Xi, Alexandre Chong, and Lin Li.
+\newblock ``Driving Style Classification Using a Semisupervised Support Vector Machine''.
+\newblock {\em IEEE Transactions on Human-Machine Systems}, 47:650--660, 10 2017.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/THMS.2017.2736948})}.
+
+\bibitem{Bouslimi2005}
+W.~Bouslimi, M.~Kassaagi, D.~Lourdeaux, and P.~Fuchs.
+\newblock ``Augmented Naïve Bayesian network for driver behavior modeling''.
+\newblock volume 2005, pages 236--242, 2005.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/IVS.2005.1505108})}.
+
+\bibitem{chen2015d}
+Zhongyang Chen, Jiadi Yu, Yanmin Zhu, Yingying Chen, and Minglu Li.
+\newblock ``D3: Abnormal driving behaviors detection and identification using smartphone sensors''.
+\newblock In {\em 2015 12th annual IEEE international conference on sensing, communication, and networking (SECON)}, pages 524--532. IEEE, 2015.
+
+\bibitem{Wu2018}
+Xinrong Wu, Junwei Zhou, Jinghe An, and Yanchao Yang.
+\newblock ``Abnormal driving behavior detection for bus based on the Bayesian classifier''.
+\newblock pages 266--272. Institute of Electrical and Electronics Engineers Inc., 6 2018.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ICACI.2018.8377618})}.
+
+\bibitem{Fernandez2016}
+Susel Fernandez and Takayuki Ito.
+\newblock ``Driver classification for intelligent transportation systems using fuzzy logic''.
+\newblock volume~0, pages 1212--1216. Institute of Electrical and Electronics Engineers Inc., 12 2016.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ITSC.2016.7795711})}.
+
+\bibitem{deng2018improved}
+Qi~Deng and Dirk S{\"o}ffker.
+\newblock ``Improved driving behaviors prediction based on fuzzy logic-hidden markov model (fl-hmm)''.
+\newblock In {\em 2018 IEEE Intelligent Vehicles Symposium (IV)}, pages 2003--2008. IEEE, 2018.
+
+\bibitem{Li2022}
+David~Chunhu Li, Michael Yu~Ching Lin, and Li~Der Chou.
+\newblock ``Macroscopic Big Data Analysis and Prediction of Driving Behavior with an Adaptive Fuzzy Recurrent Neural Network on the Internet of Vehicles''.
+\newblock {\em IEEE Access}, 10:47881--47895, 2022.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ACCESS.2022.3171247})}.
+
+\bibitem{Karri2021}
+Soni~Lanka Karri, Liyanage C.~De Silva, Daphne Teck~Ching Lai, and Shiaw~Yin Yong.
+\newblock ``Classification and Prediction of Driving Behaviour at a Traffic Intersection Using SVM and KNN''.
+\newblock {\em SN Computer Science}, 2, 5 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1007/s42979-021-00588-7})}.
+
+\bibitem{Jiang2021}
+Yu~Heng Jiang, Yi~Fei Yu, Jian~Qing Huang, Wei~Wei Cai, and James Marco.
+\newblock ``Li-ion battery temperature estimation based on recurrent neural networks''.
+\newblock {\em Science China Technological Sciences}, 64:1335--1344, 6 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1007/s11431-020-1736-5})}.
+
+\bibitem{Zeng2021}
+Lingqiu Zeng, Hongtao Zhang, Qingwen Han, Yunyang Tang, Lei Ye, Yuping Wu, and Hui Zu.
+\newblock ``An LSTM-based driving operation suggestion method for riding comfort-oriented critical zone''.
+\newblock {\em Journal of Ambient Intelligence and Humanized Computing}, 2021.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1007/s12652-021-03327-1})}.
 
 \bibitem{petnehazi2019recurrent}
 G{\'a}bor Petneh{\'a}zi.
 \newblock ``Recurrent neural networks for time series forecasting''.
 \newblock {\em arXiv preprint arXiv:1901.00069}, 2019.
 
-\bibitem{fang-2012}
-Kaizheng Fang, Daobin Mu, Shi Chen, Borong Wu, and Feng Wu.
-\newblock ``{A prediction model based on artificial neural network for surface temperature simulation of nickel–metal hydride battery during charging}''.
-\newblock {\em Journal of Power Sources}, 208:378--382, 2012.
-\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.jpowsour.2012.02.059})}.
+\bibitem{azadani2020performance}
+Mozhgan~Nasr Azadani and Azzedine Boukerche.
+\newblock ``Performance evaluation of driving behavior identification models through can-bus data''.
+\newblock In {\em 2020 IEEE Wireless Communications and Networking Conference (WCNC)}, pages 1--6. IEEE, 2020.
 
-\bibitem{jaliliantabar2022prediction}
-Farzad Jaliliantabar, Rizalman Mamat, and Sudhakar Kumarasamy.
-\newblock ``Prediction of lithium-ion battery temperature in different operating conditions equipped with passive battery thermal management system by artificial neural networks''.
-\newblock {\em Materials Today: Proceedings}, 48:1796--1804, 2022.
+\bibitem{Selvaraju2016}
+Ramprasaath~R. Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, and Dhruv Batra.
+\newblock ``Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization''.
+\newblock 10 2016.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1007/s11263-019-01228-7})}.
 
-\bibitem{optuna_2019}
-Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama.
-\newblock ``Optuna: A Next-generation Hyperparameter Optimization Framework''.
-\newblock In {\em Proceedings of the 25rd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}, 2019.
+\bibitem{Zhang2023}
+Yu~Zhang, Yingying He, and Likai Zhang.
+\newblock ``Recognition method of abnormal driving behavior using the bidirectional gated recurrent unit and convolutional neural network''.
+\newblock {\em Physica A: Statistical Mechanics and its Applications}, 609, 1 2023.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.physa.2022.128317})}.
 
-\bibitem{DOSREIS2021100081}
-Gonçalo {dos Reis}, Calum Strange, Mohit Yadav, and Shawn Li.
-\newblock ``Lithium-ion battery data and where to find it''.
-\newblock {\em Energy and AI}, 5:100081, 2021.
-\newblock {(\urlstyle{same}\url{https://doi.org/10.1016/j.egyai.2021.100081})}.
+\bibitem{Zhang2019attention}
+Jun Zhang, Zhongcheng Wu, Fang Li, Jianfei Luo, Tingting Ren, Song Hu, Wenjing Li, and Wei Li.
+\newblock ``Attention-Based Convolutional and Recurrent Neural Networks for Driving Behavior Recognition Using Smartphone Sensor Data''.
+\newblock {\em IEEE Access}, 7:148031--148046, 2019.
+\newblock {(\urlstyle{same}\url{https://doi.org/10.1109/ACCESS.2019.2932434})}.
+
+\bibitem{dosreisG2021}
+Gonçalo dos Reis, Calum Strange, Mohit Yadav, and Shawn Li.
+\newblock ``Lithium-ion battery data and where to find it'', 9 2021.
+
+\bibitem{waldmann2014temperature}
+Thomas Waldmann, Marcel Wilka, Michael Kasper, Meike Fleischhammer, and Margret Wohlfahrt-Mehrens.
+\newblock ``Temperature dependent ageing mechanisms in Lithium-ion batteries--A Post-Mortem study''.
+\newblock {\em Journal of Power Sources}, 262:129--135, 2014.
+
+\bibitem{safdari2022numerical}
+Mojtaba Safdari, Rouhollah Ahmadi, and Sadegh Sadeghzadeh.
+\newblock ``Numerical and experimental investigation on electric vehicles battery thermal management under New European Driving Cycle''.
+\newblock {\em Applied Energy}, 315:119026, 2022.
+
+\bibitem{9424412}
+Mohamed Ben-Marzouk, Serge Pelissier, Guy Clerc, Ali Sari, and Pascal Venet.
+\newblock ``Generation of a Real-Life Battery Usage Pattern for Electrical Vehicle Application and Aging Comparison With the WLTC Profile''.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 70(6):5618--5627, 2021.
+
+\bibitem{kwak2016know}
+Byung~Il Kwak, Jiyoung Woo, and Huy~Kang Kim.
+\newblock ``Know your master: Driver Profiling-based Anti-theft method''.
+\newblock In {\em PST 2016}, 2016.
+
+\bibitem{hcrl}
+``HCRL - Driving Dataset''.
+\newblock {(\urlstyle{same}\url{https://ocslab.hksecurity.net/Datasets/driving-dataset})}.
+
+\bibitem{oh2020vehicle}
+Geunseob Oh, David~J Leblanc, and Huei Peng.
+\newblock ``Vehicle energy dataset (ved), a large-scale dataset for vehicle energy consumption research''.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems}, 23(4):3302--3312, 2020.
+
+\bibitem{oh_2023_ved}
+G.~S. Oh.
+\newblock ``VED (Vehicle Energy Dataset)'', 02 2023.
+\newblock {(\urlstyle{same}\url{https://github.com/gsoh/VED})}.
+
+\bibitem{6jr9-5235-20}
+Matthias Steinstraeter, Johannes Buberger, and Dimitar Trifonov.
+\newblock ``Battery and Heating Data in Real Driving Cycles'', 2020.
+\newblock {(\urlstyle{same}\url{https://dx.doi.org/10.21227/6jr9-5235})}.
+
+\bibitem{kagglebattery}
+``BATTERY AND HEATING DATA IN REAL DRIVING CYCLES''.
+\newblock {(\urlstyle{same}\url{https://www.kaggle.com/datasets/atechnohazard/battery-and-heating-data-in-real-driving-cycles?select=Overview.xlsx})}.
 
 \end{thebibliography}

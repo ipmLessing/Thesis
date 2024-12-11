@@ -1,5 +1,21 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Perception in High-Speed Autonomous Systems}{\reset@font\mtcSfont 6}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Battery SOH Prediction for Autonomous Systems}{\reset@font\mtcSfont 6}{section.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Reinforcement Learning in Multi-Objective Control}{\reset@font\mtcSfont 6}{section.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Generalization and Synthetic Data for Autonomous Systems}{\reset@font\mtcSfont 6}{section.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Ethical, Societal, and Regulatory Considerations}{\reset@font\mtcSfont 6}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Battery Structure and Degradation Mechanisms}{\reset@font\mtcSfont 6}{section.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.0.1}Anode}{\reset@font\mtcSSSfont 7}{subsubsection.2.1.0.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.0.2}Cathode}{\reset@font\mtcSSSfont 7}{subsubsection.2.1.0.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.1.0.3}Electrolyte}{\reset@font\mtcSSSfont 8}{subsubsection.2.1.0.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Battery Degradation in Battery Electric Vehicles}{\reset@font\mtcSSfont 8}{subsection.2.1.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Control Recognition in Battery Electric Vehicles}{\reset@font\mtcSfont 9}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Conventional Driving Behavior Recognition}{\reset@font\mtcSSfont 9}{subsection.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.1}Hidden Markov Model}{\reset@font\mtcSSSfont 10}{subsubsection.2.2.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.2}Gaussian Mixture Model}{\reset@font\mtcSSSfont 10}{subsubsection.2.2.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.3}Support Vector Machine}{\reset@font\mtcSSSfont 10}{subsubsection.2.2.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.4}Naive Bayes}{\reset@font\mtcSSSfont 10}{subsubsection.2.2.1.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.5}Fuzzy Logic}{\reset@font\mtcSSSfont 11}{subsubsection.2.2.1.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.6}K-Nearest Neighbor}{\reset@font\mtcSSSfont 11}{subsubsection.2.2.1.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Deep Learning Driving Behavior Recognition}{\reset@font\mtcSSfont 11}{subsection.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.1}Recurrent Neural Network}{\reset@font\mtcSSSfont 11}{subsubsection.2.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.2}Convolutional Neural Network}{\reset@font\mtcSSSfont 11}{subsubsection.2.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2.3}Fusion Models}{\reset@font\mtcSSSfont 12}{subsubsection.2.2.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Battery Data Collection and Analysis}{\reset@font\mtcSSfont 12}{subsection.2.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Reinforcement Learning in Multi-Objective Control}{\reset@font\mtcSfont 13}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Generalization and Simulation for Autonomous Systems}{\reset@font\mtcSfont 13}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Ethical, Societal, and Regulatory Considerations}{\reset@font\mtcSfont 13}{section.2.5}}

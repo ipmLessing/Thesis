@@ -1,20 +1,20 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Battery Structure and Internet of Things Device}{\reset@font\mtcSfont 10}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Dataset and Data Collection}{\reset@font\mtcSfont 10}{section.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Data Preprocessing and Feature Engineering}{\reset@font\mtcSfont 12}{section.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Data Preprocessing}{\reset@font\mtcSSfont 12}{subsection.4.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Feature Engineering}{\reset@font\mtcSSfont 16}{subsection.4.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Data resampling}{\reset@font\mtcSSSfont 16}{subsubsection.4.3.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Cyclical encoding}{\reset@font\mtcSSSfont 16}{subsubsection.4.3.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.3}Data windowing}{\reset@font\mtcSSfont 17}{subsection.4.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Charging and idling phases of the entire dataset}{\reset@font\mtcSfont 18}{section.4.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Driving Behavior and Power Consumption}{\reset@font\mtcSfont 20}{section.4.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Driving Behavior and Battery Thermal Conditions}{\reset@font\mtcSfont 21}{section.4.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}Bidirectional Long Short-Term Memory Model for Temperature Prediction}{\reset@font\mtcSfont 25}{section.4.7}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.7.1}Model Architecture}{\reset@font\mtcSSfont 25}{subsection.4.7.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.7.2}Training Process}{\reset@font\mtcSSfont 25}{subsection.4.7.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.8}Results}{\reset@font\mtcSfont 26}{section.4.8}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.1}Justification of the best model}{\reset@font\mtcSSfont 26}{subsection.4.8.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.2}Ablation study}{\reset@font\mtcSSfont 27}{subsection.4.8.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.3}Dataset comparison}{\reset@font\mtcSSfont 28}{subsection.4.8.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.4}Statistical learning comparison}{\reset@font\mtcSSfont 29}{subsection.4.8.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.9}Discussion}{\reset@font\mtcSfont 30}{section.4.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Battery Structure and Internet of Things Device}{\reset@font\mtcSfont 14}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Dataset and Data Collection}{\reset@font\mtcSfont 14}{section.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Data Preprocessing and Feature Engineering}{\reset@font\mtcSfont 16}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Data Preprocessing}{\reset@font\mtcSSfont 16}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Feature Engineering}{\reset@font\mtcSSfont 20}{subsection.4.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Data resampling}{\reset@font\mtcSSSfont 20}{subsubsection.4.3.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Cyclical encoding}{\reset@font\mtcSSSfont 20}{subsubsection.4.3.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.3}Data windowing}{\reset@font\mtcSSfont 21}{subsection.4.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Charging and idling phases of the entire dataset}{\reset@font\mtcSfont 22}{section.4.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Driving Behavior and Power Consumption}{\reset@font\mtcSfont 24}{section.4.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Driving Behavior and Battery Thermal Conditions}{\reset@font\mtcSfont 25}{section.4.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}Bidirectional Long Short-Term Memory Model for Temperature Prediction}{\reset@font\mtcSfont 29}{section.4.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.7.1}Model Architecture}{\reset@font\mtcSSfont 29}{subsection.4.7.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.7.2}Training Process}{\reset@font\mtcSSfont 29}{subsection.4.7.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.8}Results}{\reset@font\mtcSfont 30}{section.4.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.1}Justification of the best model}{\reset@font\mtcSSfont 30}{subsection.4.8.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.2}Ablation study}{\reset@font\mtcSSfont 31}{subsection.4.8.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.3}Dataset comparison}{\reset@font\mtcSSfont 32}{subsection.4.8.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.8.4}Statistical learning comparison}{\reset@font\mtcSSfont 33}{subsection.4.8.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.9}Discussion}{\reset@font\mtcSfont 34}{section.4.9}}
